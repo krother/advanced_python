@@ -6,11 +6,11 @@ exercise: change the value of 'level' to
 
           find out what is their order of precedence
 """
+
 import logging
+import sys
 
-
-logging.basicConfig(filename='debug.log', 
-                    level=logging.WARNING)
+logging.basicConfig(filename='debug.log', level=logging.CRITICAL)
 
 
 
@@ -34,3 +34,17 @@ if __name__ == '__main__':
     logging.critical('Factorial calculation ended')
 
 
+# more loggers to try: 
+
+# log = logging.getLogger('example1')
+# log.addHandler(logging.FileHandler('debug2.log', mode='w'))
+# log.setLevel(logging.DEBUG)
+# log.info('spam')
+
+# log2 = logging.getLogger('example2')
+# handler = logging.StreamHandler(sys.stderr)
+# log2.addHandler(handler)
+# fmt='%(asctime)s %(message)s'
+# handler.setFormatter(logging.Formatter(fmt, datefmt='%m/%d/%Y %I:%M:%S %p'))
+# log2.setLevel(logging.WARNING)
+# log2.warning('spam spam spam')
