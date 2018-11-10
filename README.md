@@ -40,24 +40,22 @@ contact: krother@academis.eu
 * writing modules
 * writing packages
 * parsing command-line arguments
+* context managers
 
 ### Object-Oriented Programming in Python
 
 * classes and instances
 * must-have methods
 * inheritance
+* private attributes
 * properties
 * classmethod
 * staticmethod
 * operator overloading
 * metaclasses
+* Abstract base classes
 
 ### Concurrency
 
 * threads
 * asyncio
-
-### Extra Content
-
-* context managers
-* Abstract base classes
