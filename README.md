@@ -13,49 +13,32 @@ contact: krother@academis.eu
 
 ### Functions
 
-* function parameters
-* lambda functions
-* generator functions
-* decorators
-
-### Collections
-
-* named tuples
-* defaultdict
-* Counter
-* OrderedDict
-* Enums
+* [function parameters](functions/function_parameters/)
+* [lambda functions](functions/lambda_functions/)
+* [generator functions](functions/generators/)
+* [decorators](functions/decorators/)
 
 ### Shortcuts
 
-* list comprehensions
-* dict comprehensions
-* generator expressions
-* map, filter, reduce
+* [Collections](shortcuts/collections/)
+* [Comprehensions](shortcuts/comprehensions/)
+* [functools](shortcuts/functools/)
+* [Enums](shortcuts/enum/)
 
 ### Structuring Code
 
-* error handling
-* warnings
-* writing modules
-* writing packages
-* parsing command-line arguments
-* context managers
+* [command-line arguments](structure/commandline_arguments/)
+* [argparse](structure/argparse/)
+* [error handling](structure/error_handling/)
+* [warnings](structure/warnings/)
+* [logging](structure/logging/)
+* [writing modules](structure/modules/)
+* [writing packages](structure/package/)
 
 ### Object-Oriented Programming in Python
 
-* classes and instances
-* must-have methods
-* inheritance
-* private attributes
-* properties
-* classmethod
-* staticmethod
-* operator overloading
-* metaclasses
-* Abstract base classes
+* [classes](classes/)
 
 ### Concurrency
 
-* threads
-* asyncio
+* [threading and asyncio](concurrency/)
