@@ -9,6 +9,7 @@ import sys
 # logger 1: simply writes messages to text file
 log1 = logging.getLogger('example1')
 log1.addHandler(logging.FileHandler('logger1.log', mode='w'))
+log1.addHandler(logging.StreamHandler(sys.stderr))
 log1.setLevel(logging.INFO)
 log1.info('message for logger 1')
 

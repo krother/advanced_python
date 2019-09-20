@@ -10,8 +10,7 @@ exercise: change the value of 'level' to
 import logging
 import sys
 
-logging.basicConfig(filename='debug.log', level=logging.CRITICAL)
-
+logging.basicConfig(filename='debug.log', level=logging.DEBUG)
 
 
 def factorial(n=10):
@@ -25,7 +24,7 @@ def factorial(n=10):
         i += 1
         #logging.info('unhandled event: ' + str(event))
     logging.warning('Final result: {}'.format(factorial))
-        
+
 
 if __name__ == '__main__':
     logging.warning('this is a warning message')
@@ -34,7 +33,7 @@ if __name__ == '__main__':
     logging.critical('Factorial calculation ended')
 
 
-# more loggers to try: 
+# more loggers to try:
 
 # log = logging.getLogger('example1')
 # log.addHandler(logging.FileHandler('debug2.log', mode='w'))

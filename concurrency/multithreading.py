@@ -17,9 +17,8 @@ class MyThread (threading.Thread):
         number += 1
         for i in range(20):
             print('Thread', n, 'counts', i)
-            time.sleep(0.1 * random.randint(1, 10))
+            time.sleep(1 * random.randint(1, 10))
 
 
 for x in range(10):
        MyThread().start()
-
