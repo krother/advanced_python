@@ -1,38 +1,59 @@
 
 # Handling Exceptions
 
-The `try.. except` clause catches errors and allows you to react on them.
+### Raising Exceptions
 
-    # print all cards with even numbers.
-    cards = ["2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K", "A"]
+You can create errors with your own messages that stop the program:
+
+    :::python
+    raise ValueError("expected a valid Pokemon name")
+
+## Catching Exceptions
+
+The `try.. except` clause allows your program to catch errors and act on them
+instead of terminating the program.
+
+    :::python
+    cards = "234567890JQKA"
 
     for card in cards:
         try:
             number = int(card)
-            if number % 2 == 0:  # modulo operator
-                print(card, "is an even card.")
+            print(f"dealt {card}")
         except ValueError:
-            print (card, "can not be divided")
+            print(f"{card} could not be dealt")
 
-Normally, `int("J")` would terminate the program. The `except` clause allows the program to finish neatly.
+### How not to catch Exceptions
 
-In Python, Exceptions should always be handled explicitly. Using a generic `except` is considered a very bad habit, because it makes debugging difficult.
+Exceptions should always be caught with an explicit error type.
+Using a generic `except` makes debugging difficult:
 
+    :::python
+    cards = "234567890JQKA"
 
-## Creating your own Exceptions
+    for card in cards:
+        try:
+            number = int(card)
+            print(f"dealt {car}")
+        except:
+            print(f"{card} could not be dealt")
+
+In this example, `car` causes a `NameError` for every card. You don't get any clues what exactly went wrong.
+
+This is called the *"diaper pattern"* and considered a very bad habit.
+
+### Creating your own Exceptions
 
 You can define your own types of Exceptions:
 
-    class MyError(Exception): pass
+    :::python
+    class WrongInputError(Exception): pass
 
-and create an error using your own type:
+and raise them:
 
-    raise MyError("message")
+    :::python
+    text = input("please enter a number between 1-4: ")
+    if not text in "1234":
+        raise WrongInputError("{} is not a number between 1-4.".format(text))
 
-and catch it:
-
-    try:
-        ..
-        ..
-    except MyError:
-        ..
+The `try..except` works for your own Exception types as well.

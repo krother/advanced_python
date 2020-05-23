@@ -3,42 +3,47 @@
 
 Examples of advanced Python programming techniques
 
-(c) 2018 Dr. Kristian Rother
+## Functions
 
-distributed under the conditions of the MIT License.
+* [Function Parameters](functions/function_parameters/)
+* [lambda Functions](functions/lambda_functions/)
+* [Generator Functions](functions/generators/)
+* [Decorators](functions/decorators/)
 
-contact: krother@academis.eu
-
-## Topics
-
-### Functions
-
-* [function parameters](functions/function_parameters/)
-* [lambda functions](functions/lambda_functions/)
-* [generator functions](functions/generators/)
-* [decorators](functions/decorators/)
-
-### Shortcuts
+## Shortcuts
 
 * [Collections](shortcuts/collections/)
 * [Comprehensions](shortcuts/comprehensions/)
 * [functools](shortcuts/functools/)
 * [Enums](shortcuts/enum/)
 
-### Structuring Code
+## Structuring Code
 
-* [command-line arguments](structure/commandline_arguments/)
+* [Command-line Arguments](structure/commandline_arguments/)
 * [argparse](structure/argparse/)
-* [error handling](structure/error_handling/)
-* [warnings](structure/warnings/)
-* [logging](structure/logging/)
-* [writing modules](structure/modules/)
-* [writing packages](structure/package/)
+* [Writing Packages](structure/package/)
+* [Writing Modules](structure/modules/)
 
-### Object-Oriented Programming in Python
+## Object-Oriented Programming in Python
 
-* [classes](classes/)
+* [Classes](classes/)
 
-### Concurrency
+## Error Handling
 
-* [threading and asyncio](concurrency/)
+* [Exception Handling](error_handling/exceptions/)
+* [Warnings](error_handling/warnings.md)
+* [Logging](error_handling/logging/)
+
+## Parallel Programming
+
+* [Concurrency](concurrency/)
+
+## Source
+
+[github.com/krother/advanced_python](https://github.com/krother/advanced_python)
+
+## License
+
+© 2018 Dr. Kristian Rother (krother@academis.eu)
+
+The code is distributed under the conditions of the MIT License.
