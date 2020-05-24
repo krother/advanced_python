@@ -19,8 +19,8 @@ Examples of advanced Python programming techniques
 
 ## Structuring Code
 
-* [Command-line Arguments](structure/commandline_arguments/)
-* [argparse](structure/argparse/)
+* [Structure of a Python script](structure/main_block.md)
+* [Command-line Arguments](structure/commandline_args.md)
 * [Writing Packages](structure/package/)
 * [Writing Modules](structure/modules/)
 
