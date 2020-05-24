@@ -15,7 +15,7 @@ Examples of advanced Python programming techniques
 * [Collections](shortcuts/collections/)
 * [Comprehensions](shortcuts/comprehensions/)
 * [functools](shortcuts/functools/)
-* [Enums](shortcuts/enum/)
+* [Enumerations](shortcuts/enums.md)
 
 ## Structuring Code
 
