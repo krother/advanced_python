@@ -8,13 +8,14 @@ Examples of advanced Python programming techniques
 * [Function Parameters](functions/function_parameters/)
 * [lambda Functions](functions/lambda_functions/)
 * [Generator Functions](functions/generators/)
+* [functools](shortcuts/functools/)
 * [Decorators](functions/decorators/)
 
 ## Shortcuts
 
 * [Collections](shortcuts/collections/)
 * [Comprehensions](shortcuts/comprehensions/)
-* [functools](shortcuts/functools/)
+* [Named Tuples](shortcuts/namedtuple.md)
 * [Enumerations](shortcuts/enums.md)
 
 ## Structuring Code

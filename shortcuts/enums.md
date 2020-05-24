@@ -1,35 +1,51 @@
-"""
-Enumerations
-"""
-from enum import Enum
+# Enumerations
+
+**Enumerations or Enums** are a way to manage strictly defined states.
+They avoid ambiguities and accidental bugs when using standard data types.
 
 
-# defining an Enum
-class TrafficLight(Enum):
-    RED = 1
-    AMBER = 2
-    GREEN = 3
+## Defining an Enum
 
-print(TrafficLight)
+An `Enum` is defined by calling the `Enum` as a function with the possible states as as a list:
 
-# alternative: functional interface
-TrafficLight = Enum('TrafficLight', ["RED", "AMBER", "GREEN"])
-print(TrafficLight)
+    :::python
+    TrafficLight = Enum('TrafficLight', ["RED", "AMBER", "GREEN"])
 
+Alternatively you can define an `Enum` as a subclass, with the possible states as attributes:
 
-# comparing values
-print()
-print(TrafficLight.RED)
-print(TrafficLight.RED.name)
-print(TrafficLight.RED == 1)
-print(TrafficLight.RED is TrafficLight.GREEN)
+    :::python
+    from enum import Enum
 
-crossing = TrafficLight.RED
-print(crossing is TrafficLight.RED)
+    class TrafficLight(Enum):
+        RED = 1
+        AMBER = 2
+        GREEN = 3
 
+## Using an Enum
 
-# iterating over items
-print()
-for tl in TrafficLight:
-    print(tl)
+To use the states in an `Enum`, assign it to a state variable:
 
+    :::python
+    a = TrafficLight.RED
+
+Then compare values to another state:  
+
+    :::python
+    print(a is TrafficLight.GREEN)
+    print(a TrafficLight.RED)
+
+## Inspecting Enums
+
+Also try:
+
+    :::python
+    print(TrafficLight.RED.name)
+    print(TrafficLight.RED == 1)
+
+## Iterating over an Enums
+
+iterating over an Enum gives you all states:
+
+    :::python
+    for x in TrafficLight:
+        print(x)
