@@ -13,7 +13,7 @@ Examples of advanced Python programming techniques
 
 ## Shortcuts
 
-* [Collections](shortcuts/collections/)
+* [Collections](shortcuts/collections.md)
 * [Comprehensions](shortcuts/comprehensions/)
 * [Named Tuples](shortcuts/namedtuple.md)
 * [Enumerations](shortcuts/enums.md)
