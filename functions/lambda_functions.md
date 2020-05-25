@@ -1,10 +1,21 @@
 
-from random import randint
+# Lambda Functions
 
-numbers = [randint(1,10) for x in range(12)]
+The `lambda` expression allows you to define a function without the `def` statement:
 
-odd = lambda x:x%2
-even = lambda x:not odd(x)
+    :::python
+    names = ['Ada', 'Bob', 'Charlotte', 'David']
 
-print([x for x in numbers if odd(x)])
-print([x for x in numbers if even(x)])
+    odd = lambda s:len(s) % 2
+    even = lambda s:not odd(s)
+
+    print('odd :', [x for x in names if odd(x)])
+    print('even:', [x for x in names if even(x)])
+
+The advantage of `lambda` is that it can be combined with other functional expressions like `map()`, `filter()` and  `reduce()`:
+
+    :::python
+    odd_names = list(filter(lambda s:len(s) % 2, names))
+
+Excessive use of `lambda` does not necessarily make your code more clean.
+But if you would like to experiment with *functional programming* it is worth to know.
