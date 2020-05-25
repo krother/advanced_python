@@ -9,7 +9,7 @@ Examples of advanced Python programming techniques
 * [Lambda Functions](functions/lambda_functions.md)
 * [Generator Functions](functions/generators.md)
 * [The functools Module](shortcuts/functools/)
-* [Decorators](functions/decorators/)
+* [Decorators](functions/decorators.md)
 
 ## Shortcuts
 
