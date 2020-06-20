@@ -28,7 +28,6 @@ Examples of advanced Python programming techniques
 ## Object-Oriented Programming in Python
 
 * [Classes](classes/classes.md)
-* [Object Coposition](classes/composition.md)
 * [Inheritance](classes/inheritance.md)
 * [Operator Overloading](classes/operators.md)
 * [Class Decorators](classes/decorators.md)

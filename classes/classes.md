@@ -128,7 +128,6 @@ Especially if you are still learning about classes, consider yourself warned of 
 
 * Multiple Inheritance
 * Operator Overloading
-* Decorator Classes
 * Metaclasses
 * Monkey Patching
 
