@@ -8,7 +8,7 @@ Examples of advanced Python programming techniques
 * [Function Parameters](functions/function_parameters/)
 * [Lambda Functions](functions/lambda_functions.md)
 * [Generator Functions](functions/generators.md)
-* [The functools Module](shortcuts/functools/)
+* [Map-Filter-Reduce](shortcuts/functools.md)
 * [Decorators](functions/decorators.md)
 
 ## Shortcuts
@@ -27,7 +27,12 @@ Examples of advanced Python programming techniques
 
 ## Object-Oriented Programming in Python
 
-* [Classes](classes/)
+* [Classes](classes/classes.md)
+* [Object Coposition](classes/composition.md)
+* [Inheritance](classes/inheritance.md)
+* [Operator Overloading](classes/operators.md)
+* [Class Decorators](classes/decorators.md)
+
 
 ## Error Handling
 
