@@ -29,6 +29,7 @@ Examples of advanced Python programming techniques
 
 * [Classes](classes/classes.md)
 * [Inheritance](classes/inheritance.md)
+* [Object Composition](classes/composition.md)
 * [Operator Overloading](classes/operator_overloading.md)
 * [Class Decorators](classes/decorator_class.md)
 * [Metaclasses](classes/metaclasses.md)

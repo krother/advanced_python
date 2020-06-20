@@ -1,76 +1,58 @@
 
 # Inheritance
-Example for classes, properties and inheritance
 
-Exercise:
-1) make the balance a property as well.
-2) make it impossible for the interest rate to go above 20%
-"""
+Classes can extend other classes.
+In that case, the subclass (the inheriting one) will have all the attributes and methods of the other class.
 
-        @staticmethod
-        def info_text():
-            """Static methods belong to a class, but know nothing about it."""
-            return """This is a bank account. It keeps your money safe."""
+A subclass can also replace attributes methods of the superclass.
+If you want to use both inherited and new
 
-        @classmethod
-        def prefix_text(cls):
-            """Class methods belong to a class, but know nothing about its instances."""
-            return """Bank account has the prefix: {}.""".format(cls.prefix)
+The most important design principle when using inheritance is **Liskovs Substitution Principle**.
+It says that you should be able to use a subclass instead of its superclass.
 
+The second important design principle is to avoid excessive subclassing.
+Most of the time **Object Composition** is the better idea.
 
-from account import Account
+----
 
+## Example
 
-class SavingsAccount(Account):
+Here you find an example using the `Account` class defined earlier.
 
-    prefix = 'SAVINGS:'
+    :::python3
+    class SavingsAccount(Account):
 
-    def __init__(self, newname, interest):
-        super().__init__(newname, 0)
-        self.__interest = interest
+        def __init__(self, owner, start_balance=0, interest_rate=1.0):
+            super().__init__(owner, start_balance)
+            self.interest_rate = interest_rate
 
-    @property
-    def interest_rate(self):
-        return self.__interest
+        def add_interest(self):
+            self.balance *= self.interest_rate
 
-    @interest_rate.setter
-    def interest_rate(self, interest):
-        self.__interest = interest
+        def withdraw(self, amount):  # replaces Account.withdraw
+            print('**extra identification approved**')
+            super().withdraw(amount)
 
-    def add_interest(self):
-        self.balance *= self.interest_rate
+Using the subclass is very similar to using the superclass:
 
-    def withdraw(self, amount):
-        print('**extra identification step approved**')
-        super().withdraw(amount)
-
-
-if __name__ == '__main__':
-    b = SavingsAccount('Betty', interest=1.03)
+    :::python3
+    b = SavingsAccount('Betty', 100, interest_rate=1.03)
     print(b)
 
-    b.deposit(100)
+    b.deposit(100)  # calls Account.deposit()
+    print(b)        # calls Account.__repr__()
+
+    b.add_interest()  # calls SavingsAccount.add_interest()
     print(b)
 
-    b.withdraw(50)
-    print(b)
-
-    b.add_interest()
-    print(b)
-
-    b.interest_rate = 1.06    
-    b.add_interest()
-    print(b)
-
-    # print(b.__interest)
-
-
+----
 
 ## Abstract Base Classes
 
 If you want to use inheritance but not allow instances of the superclass, you can use the **ABC Metaclass**.
 With `ABCMeta`, you need to create a subclass that overwrites all abstract methods and properties:
 
+    :::python3
     from abc import ABCMeta, abstractmethod, abstractproperty
 
     class AbstractAnimal(metaclass=ABCMeta):
@@ -97,15 +79,14 @@ With `ABCMeta`, you need to create a subclass that overwrites all abstract metho
         def is_alive(self):
             return True
 
-
-
 ### Exercise
 
 Implement the Dog class so that the code below runs.
 
+    :::python3
     class Dog(AbstractAnimal):
 
-    ...
+        ...
 
     rex = Dog()
     rex.name = 'Rex'
