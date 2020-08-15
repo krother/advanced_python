@@ -4,8 +4,9 @@
 The `lambda` expression allows you to define a function without the `def` statement:
 
     :::python
-    names = ['Ada', 'Bob', 'Charlotte', 'David']
+    names = ['Ada', 'Bob', 'Charlotte', 'Dave', 'Eddy']
 
+    # find words with an odd/even number of characters
     odd = lambda s:len(s) % 2
     even = lambda s:not odd(s)
 
