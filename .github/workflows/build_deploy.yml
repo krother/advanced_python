@@ -1,0 +1,21 @@
+
+name: deploy python basics
+
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+    - name: pull from github repo
+      uses: appleboy/ssh-action@master
+      with:
+        host: ssh.pythonanywhere.com
+        username: krother
+        password: ${{ secrets.SSH_PASSWORD }}
+        port: 22
+        script: cd academis/content/advanced_python && git pull
