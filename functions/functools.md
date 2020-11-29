@@ -30,6 +30,7 @@ It is returning a generator. `map()` is an alternative to a comprehension.
 The  `filter()` function returns all elements of an iterable for which a function returns `True`.
 It is the functional equivalent of the `if` clause in a comprehension.
 
+    :::python
     def odd(x):
         return x % 2 != 0
 
@@ -40,94 +41,79 @@ It is the functional equivalent of the `if` clause in a comprehension.
 
 ## Reduce
 
-from functools import reduce
+    :::python
+    from functools import reduce
 
-numbers = [1, 2, 3, 4, 5, 6, 7, 8]
-
-
-# reduce
-def add(x, y):
-    return x + y
-
-print(reduce(add, numbers))
-print(reduce(add, [[1, 2, 3], [4, 5, 6]]))
-
-from functools import partial
-
-def add(a, b):
-	return a + b
+    numbers = [1, 2, 3, 4, 5, 6, 7, 8]
 
 
-add3 = partial(add, 3)
-print(add3(5))
+    # reduce
+    def add(x, y):
+        return x + y
+
+    print(reduce(add, numbers))
+    print(reduce(add, [[1, 2, 3], [4, 5, 6]]))
+
+    from functools import partial
+
+    def add(a, b):
+    	return a + b
 
 
-from functools import reduce
-
-words = [
-    (455, 'sea'),
-    (336, 'boat'),
-    (281, 'white'),
-    (1226, 'whale'),
-    (329, 'captain'),
-    (510, 'Ahab')
-]
+    add3 = partial(add, 3)
+    print(add3(5))
 
 
-def newlines(a, b):
-    return a + '\n' + b
+    from functools import reduce
+
+    words = [
+        (455, 'sea'),
+        (336, 'boat'),
+        (281, 'white'),
+        (1226, 'whale'),
+        (329, 'captain'),
+        (510, 'Ahab')
+    ]
 
 
-def wordformat(x):
-    return "{:>10s}:{:5d}".format(x[1], x[0])
+    def newlines(a, b):
+        return a + '\n' + b
 
 
-print(reduce(newlines, map(wordformat, words)))
+    def wordformat(x):
+        return "{:>10s}:{:5d}".format(x[1], x[0])
+
+
+    print(reduce(newlines, map(wordformat, words)))
 
 ## Partial
-
-The functools Module
---------------------
 
 The ``functools`` module contains a couple of ways to manipulate
 functions.
 
+The ``partial`` fills in a part of the parameters, resulting in a new
+function:
+
+    :::python
+    add5 = functools.partial(addition, 5)
+    print(add5(8))  # results in 13
+
+
 ## Caching
+
 The ``lru_cache`` decorator caches results, so that the second call with
 the same parameters is faster. It is useful when your function is fully
 deterministic.
 
-::
+    :::python
+    from functools import lru_cache
 
-    @functools.lru_cache(maxsize=128, typed=False)
+    @lru_cache()
+    def fibonacci(n):
+        if n < 2:
+            return n
+        return fibonacci(n-1) + fibonacci(n-2)
 
-The ``partial`` fills in a part of the parameters, resulting in a new
-function:
+    print(fibonacci(50))
 
-::
-
-    add5 = functools.partial(addition, 5)
-    print(add5(8))  # results in 13
-"""
-Caching
-
-Measure the time that calls of fibonacci() take to complete.
-
-Then add the decorator functools.lru_cache to the function.
-Measure the time again.
-
-See: https://docs.python.org/3.6/library/functools.html
-"""
-from functools import lru_cache
-
-@lru_cache()
-def fibonacci(n):
-    if n < 2:
-        return n
-    return fibonacci(n-1) + fibonacci(n-2)
-
-
-print(fibonacci(50))
-"""
-Map, filter and reduce
-"""
+Try the program with and without the decorator!

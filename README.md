@@ -8,7 +8,7 @@ Examples of advanced Python programming techniques
 * [Function Parameters](functions/function_parameters/)
 * [Lambda Functions](functions/lambda_functions.md)
 * [Generator Functions](functions/generators.md)
-* [Map-Filter-Reduce](shortcuts/functools.md)
+* [Map-Filter-Reduce](functions/functools.md)
 * [Decorators](functions/decorators.md)
 
 ## Shortcuts
