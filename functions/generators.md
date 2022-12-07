@@ -24,6 +24,7 @@ Every time `next()` is called, it pulls out one value from the generator.
     print(next(gen))
     print(next(gen))
 
+----
 
 ## Lazy evaluation
 
@@ -45,6 +46,8 @@ The following code proves that:
 
 The first call of the generator does nothing yet. Only when `next()` requests the next value, the generator function is executed until the `yield` statement. Then it pauses until the next `yield` and so on.
 
+----
+
 ## Consuming values
 
 To get all values out of a generator, you can use a `for` loop or convert to a list:
@@ -54,6 +57,8 @@ To get all values out of a generator, you can use a `for` loop or convert to a l
          print(x, )
 
     print(list(count()))
+
+----
 
 ## Endless loops
 
@@ -70,6 +75,8 @@ A common generator pattern is using an endless `while` loop to generate a series
 Pulling out values with `next()` does not result in an endless loop.
 Of course, you shouldn't try to consume this generator in a loop or using `list()`.
 
+----
+
 ## Generator Expressions
 
 You can create ad-hoc generators similar to a list comprehension:
@@ -78,6 +85,8 @@ You can create ad-hoc generators similar to a list comprehension:
     squares = (x ** 2 for x in range(100))
 
     print(next(squares))
+
+----
 
 ## Iterators
 

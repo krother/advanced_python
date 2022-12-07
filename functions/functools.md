@@ -24,6 +24,7 @@ It is returning a generator. `map()` is an alternative to a comprehension.
     print(squares)
     print(list(squares))
 
+----
 
 ## Filter
 
@@ -38,8 +39,12 @@ It is the functional equivalent of the `if` clause in a comprehension.
     print(odd_numbers)
     print(list(odd_numbers))
 
+----
 
 ## Reduce
+
+The `reduce` function aggregates data by recursively calling the same function.
+For instance, you could use it to add numbers and concatenate lists:
 
     :::python
     from functools import reduce
@@ -47,23 +52,16 @@ It is the functional equivalent of the `if` clause in a comprehension.
     numbers = [1, 2, 3, 4, 5, 6, 7, 8]
 
 
-    # reduce
     def add(x, y):
         return x + y
 
     print(reduce(add, numbers))
     print(reduce(add, [[1, 2, 3], [4, 5, 6]]))
 
-    from functools import partial
 
-    def add(a, b):
-    	return a + b
+`reduce` allows for quite sophisticated patterns:
 
-
-    add3 = partial(add, 3)
-    print(add3(5))
-
-
+    :::python
     from functools import reduce
 
     words = [
@@ -86,34 +84,19 @@ It is the functional equivalent of the `if` clause in a comprehension.
 
     print(reduce(newlines, map(wordformat, words)))
 
+----
+
 ## Partial
 
-The ``functools`` module contains a couple of ways to manipulate
-functions.
-
-The ``partial`` fills in a part of the parameters, resulting in a new
+The ``functools`` module contains a couple of ways to manipulate functions.
+One of them is ``partial`` that fills in a part of the parameters, resulting in a new
 function:
 
     :::python
-    add5 = functools.partial(addition, 5)
-    print(add5(8))  # results in 13
+    from functools import partial
 
+    add3 = partial(add, 3)   # add3 is a function
+    print(add3(5))           # results in 8
 
-## Caching
-
-The ``lru_cache`` decorator caches results, so that the second call with
-the same parameters is faster. It is useful when your function is fully
-deterministic.
-
-    :::python
-    from functools import lru_cache
-
-    @lru_cache()
-    def fibonacci(n):
-        if n < 2:
-            return n
-        return fibonacci(n-1) + fibonacci(n-2)
-
-    print(fibonacci(50))
-
-Try the program with and without the decorator!
+    add5 = partial(add, 5)   # can be done more than once
+    print(add5(8))           # results in 13
