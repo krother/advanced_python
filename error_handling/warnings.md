@@ -12,9 +12,13 @@ The output warning also contains a line number:
 
     :::bash
     warn.py:3: UserWarning: This is a drill!
-      warnings.warn("This is a drill!")
 
 Python has an option to stop with an error as soon as a warning occurs:
 
     :::bash
     python -W error warnme.py
+
+You could also mute all warnings:
+
+    :::bash
+    python -W ignore warnme.py
