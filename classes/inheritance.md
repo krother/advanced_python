@@ -2,16 +2,14 @@
 # Inheritance
 
 Classes can extend other classes.
-In that case, the subclass (the inheriting one) will have all the attributes and methods of the other class.
+A **subclass** will have all the attributes and methods of a **superclass**.
+You can say the subclass inherits from the superclass.
 
-A subclass can also replace attributes methods of the superclass.
-If you want to use both inherited and new
+A subclass can define new methods and attributes.
+It can also replace methods of the superclass.
 
 The most important design principle when using inheritance is **Liskovs Substitution Principle**.
-It says that you should be able to use a subclass instead of its superclass.
-
-The second important design principle is to avoid excessive subclassing.
-Most of the time **Object Composition** is the better idea.
+It says that you should be able to use a subclass whereever the superclass is used.
 
 ----
 
@@ -33,6 +31,8 @@ Here you find an example using the `Account` class defined earlier.
             print('**extra identification approved**')
             super().withdraw(amount)
 
+The `super()` function returns an instance of the superclass, so that you can call the inherited methods, even if you are replacing them.
+
 Using the subclass is very similar to using the superclass:
 
     :::python3
@@ -47,49 +47,12 @@ Using the subclass is very similar to using the superclass:
 
 ----
 
-## Abstract Base Classes
+## Caveats
 
-If you want to use inheritance but not allow instances of the superclass, you can use the **ABC Metaclass**.
-With `ABCMeta`, you need to create a subclass that overwrites all abstract methods and properties:
+Once you get the hang of object-oriented programming, inheritance is not that difficult.
+At some point, it is very tempting to define lots of subclasses, and class hierarchies with multiple levels.
+Most of the time, having one level of inheritance is enough.
+Many times you do not need inheritance at all, and you are better off using **object composition**.
 
-    :::python3
-    from abc import ABCMeta, abstractmethod, abstractproperty
-
-    class AbstractAnimal(metaclass=ABCMeta):
-
-        @abstractmethod
-        def make_noise(self):
-            pass
-
-        # an abstract read-only-property
-        @abstractproperty
-        def species(self):
-            pass
-
-        # abstract read/write property
-        def getname(self):
-            pass
-
-        def setname(self, value):
-            pass
-
-        name = abstractproperty(getname, setname)
-
-        # non-abstract method
-        def is_alive(self):
-            return True
-
-### Exercise
-
-Implement the Dog class so that the code below runs.
-
-    :::python3
-    class Dog(AbstractAnimal):
-
-        ...
-
-    rex = Dog()
-    rex.name = 'Rex'
-    print(rex.is_alive())
-    rex.make_noise()
-    print(rex.species())
+Python allows to use **multiple inheritance** (i.e. a subclass with more than one superclass).
+Avoid writing your own multiple inheritance hierarchy unless you know exactly what you are doing.

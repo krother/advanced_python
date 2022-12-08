@@ -1,25 +1,26 @@
 
 # Metaclasses
 
-**WARNING: This code is meant to drive you nuts!**
+Metaclasses change the objects creation mechanics in Python.
 
-Metaclasses change the way objects are created.
-That is, instead of simply calling `__init__()` something else might happen without you knowing it.
+The when Python creates an object, it calls the `__new__()` method of the metaclass.
+The default behavior of `__new__()` is that it creates an instance and calls its `__init__()`.
+Now you could write a new metaclass that instead of calling `__init__()` does something else.
 
-They are an ugly, incoherent, intransparent construct that exploits everything Python offers.
-
-----
-
-## Valid Use Cases:
+Valid Use Cases for changing a metaclass are:
 
 * writing an ORM like **Django models** or **SQLAlchemy**
 * hijacking internal Python logic (e.g. like **pytest** does)
 * emulating JavaScript-like objects (the Prototype pattern)
-* showing off
+
+Throughout 20 years of Python programming, I have not come across a single situation where writing a metaclass was necessary.
+But it helps to understand Python on a deeper level.
 
 ----
 
-## Instructions
+## Example
+
+**WARNING: This code is a complex illustrative example that might drive you nuts!**
 
 1. run the code
 2. admire what is happening
@@ -61,7 +62,7 @@ Here is the code
 
 ## Final Warning
 
-Don't try this at work, unless
+Don't try using metaclasses at work, unless
 
 * you have excluded all alternatives
 * you really know what you are doing

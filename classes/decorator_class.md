@@ -4,11 +4,15 @@
 Decorator Classes are a structure to write more sophisticated decorators that have an internal state.
 They allow you to pass arguments into the decorator as well.
 
-Key points:
+## Key points:
 
 * the constructor `__init__()` receives the arguments given in the line starting with `@`
 * the `__call__()` method should return the decorator function
 * the `safe_call()` method gets called in the end (you can give it a different name)
+
+----
+
+## Code Example
 
 Here is a code example that counts how many errors have been produced.
 

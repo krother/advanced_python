@@ -52,7 +52,7 @@ An implementation could look like this:
 
 ----
 
-## Example 2:Composite Pattern
+## Example 2: Composite Pattern
 
 In this exaple, `Node` objects contain other `Node` objects and `Leaf` objects to construct a tree.
 The `traverse()` method walks across all nodes in the tree.

@@ -5,11 +5,13 @@ Examples of advanced Python programming techniques
 
 ## Functions
 
-* [Function Parameters](functions/function_parameters/)
+* [Function Parameters](functions/function_parameters.md)
+* [Variable Scope](functions/scope.md)
 * [Lambda Functions](functions/lambda_functions.md)
 * [Generator Functions](functions/generators.md)
 * [Map-Filter-Reduce](functions/functools.md)
 * [Decorators](functions/decorators.md)
+* [Exercise](functions/exercises.md)
 
 ## Shortcuts
 
@@ -31,6 +33,7 @@ Examples of advanced Python programming techniques
 * [Inheritance](classes/inheritance.md)
 * [Object Composition](classes/composition.md)
 * [Operator Overloading](classes/operator_overloading.md)
+* [Abstract Base Classes](classes/abc.md)
 * [Class Decorators](classes/decorator_class.md)
 * [Metaclasses](classes/metaclasses.md)
 
@@ -44,6 +47,13 @@ Examples of advanced Python programming techniques
 ## Parallel Programming
 
 * [Concurrency](concurrency/)
+
+## Challenges
+
+| Challenge | Difficulty |
+|-----------|---------------|
+| [Tennis](challenges/tennis.md) | ⭐⭐ |
+| [Decorator-Metaclass](challenges/metaclass.md) | ⭐⭐⭐⭐⭐ |
 
 ## Source
 
