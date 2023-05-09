@@ -9,13 +9,12 @@ Functions
 .. toctree::
    :maxdepth: 1
 
-   functions/function_parameters.md
-   functions/scope.md
-   functions/lambda_functions.md
-   functions/generators.md
-   functions/functools.md
-   functions/decorators.md
-   functions/exercises.md
+   functions/function_parameters.rst
+   functions/scope.rst
+   functions/lambda_functions.rst
+   functions/generators.rst
+   functions/functools.rst
+   functions/decorators.rst
 
 Shortcuts
 ---------
@@ -23,10 +22,10 @@ Shortcuts
 .. toctree::
    :maxdepth: 1
 
-   shortcuts/collections.md
-   shortcuts/comprehensions.md
-   shortcuts/namedtuple.md
-   shortcuts/enums.md
+   shortcuts/collections.rst
+   shortcuts/comprehensions.rst
+   shortcuts/namedtuple.rst
+   shortcuts/enums.rst
 
 Structuring Code
 ----------------
@@ -34,10 +33,9 @@ Structuring Code
 .. toctree::
    :maxdepth: 1
 
-   structure/main_block.md
-   structure/commandline_args.md
-   structure/modules/
-   structure/package/
+   structure/main_block.rst
+   structure/commandline_args.rst
+   structure/modules.rst
 
 Object-Oriented Programming in Python
 -------------------------------------
@@ -45,13 +43,13 @@ Object-Oriented Programming in Python
 .. toctree::
    :maxdepth: 1
 
-   classes/classes.md
-   classes/inheritance.md
-   classes/composition.md
-   classes/operator_overloading.md
-   classes/abc.md
-   classes/decorator_class.md
-   classes/metaclasses.md
+   classes/classes.rst
+   classes/inheritance.rst
+   classes/composition.rst
+   classes/operator_overloading.rst
+   classes/abc.rst
+   classes/decorator_class.rst
+   classes/metaclasses.rst
 
 Error Handling
 --------------
@@ -59,9 +57,9 @@ Error Handling
 .. toctree::
    :maxdepth: 1
 
-   error_handling/exceptions/
-   error_handling/warnings.md
-   error_handling/logging/
+   error_handling/exceptions.rst
+   error_handling/warnings.rst
+   error_handling/logging.rst
 
 Parallel Programming
 --------------------
@@ -69,7 +67,7 @@ Parallel Programming
 .. toctree::
    :maxdepth: 1
 
-   concurrency/
+   concurrency/README.rst
 
 Challenges
 ----------
@@ -77,8 +75,10 @@ Challenges
 .. toctree::
    :maxdepth: 1
 
-   challenges/tennis.md
-   challenges/metaclass.md
+   challenges/factorial.rst
+   challenges/tennis.rst
+   challenges/metaclass.rst
+
 
 .. topic:: Source
 
