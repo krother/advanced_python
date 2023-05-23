@@ -29,7 +29,7 @@ language = 'ls'
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
-html_theme = 'alabaster'
+html_theme = 'academis_sphinx_theme'
 html_theme_path = ['themes']
 html_static_path = ['_static']
 #html_logo = "_static/banner_wide.svg"
