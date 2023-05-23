@@ -18,7 +18,7 @@ jobs:
     - name: build static html
       run: |
         python -m pip install --upgrade pip
-        pip install -r dev_requirements.txt
+        pip install -r requirements.txt
         make html
 
     - name: copy to academis server 
