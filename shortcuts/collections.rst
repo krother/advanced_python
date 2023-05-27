@@ -36,6 +36,7 @@ The most important new method is ``most_common``. The rest works like a
 normal dictionary.
 
 .. code:: python3
+   
    print(c)
    print(c.most_common(3))
    print(c.get('Adam'))
