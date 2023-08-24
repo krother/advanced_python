@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="burglar.svg">
+  <defs
+     id="defs4">
+    <pattern
+       inkscape:stockid="Checkerboard"
+       id="Checkerboard"
+       patternTransform="translate(0,0) scale(10,10)"
+       height="2"
+       width="2"
+       patternUnits="userSpaceOnUse"
+       inkscape:collect="always">
+      <rect
+         id="rect6888"
+         height="1"
+         width="1"
+         y="0"
+         x="0"
+         style="fill:black;stroke:none" />
+      <rect
+         id="rect6890"
+         height="1"
+         width="1"
+         y="1"
+         x="1"
+         style="fill:black;stroke:none" />
+    </pattern>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.7"
+     inkscape:cx="573.48012"
+     inkscape:cy="721.14294"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1301"
+     inkscape:window-height="744"
+     inkscape:window-x="65"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#ffffff;stroke:#ffffff;stroke-width:4;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect7556"
+       width="724.28571"
+       height="458.57141"
+       x="25.714285"
+       y="76.647896"
+       inkscape:export-filename="/home/krother/Desktop/courses/python/algorithmics/backpack_problem/burglar.png"
+       inkscape:export-xdpi="70.044586"
+       inkscape:export-ydpi="70.044586" />
+    <g
+       id="g6069"
+       transform="matrix(1.2119792,0,0,1.2119792,36.762137,-34.521837)"
+       inkscape:export-filename="/home/krother/Desktop/courses/python/algorithmics/backpack_problem/burglar.png"
+       inkscape:export-xdpi="70.044586"
+       inkscape:export-ydpi="70.044586">
+      <path
+         style="fill:#999999;fill-opacity:1;stroke:#000000;stroke-width:1.0955267px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 460.80004,251.99234 -25.98436,15.84966 43.48035,29.64932 24.03114,-18.59135 -41.52713,-27.14279 0,-35.95271 41.52713,20.47266 0,42.62284"
+         id="path3806"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cccccccc" />
+      <path
+         style="fill:#e6e6e6;fill-opacity:1;stroke:#000000;stroke-width:0.93120581px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 499.35446,238.30722 -35.98023,-17.87253 0,29.3956 35.50993,22.3407 z"
+         id="path3831"
+         inkscape:connector-curvature="0" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.93120581px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 460.7874,255.70942 35.0396,23.75166"
+         id="path3833"
+         inkscape:connector-curvature="0" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path3835"
+         d="m 458.43576,257.12041 35.03957,23.75167"
+         style="fill:none;stroke:#000000;stroke-width:0.93120581px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.93120581px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 455.84895,258.76657 35.03956,23.75167"
+         id="path3837"
+         inkscape:connector-curvature="0" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path3839"
+         d="m 453.49731,260.64789 35.03958,23.75167"
+         style="fill:none;stroke:#000000;stroke-width:0.93120581px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path3841"
+         d="m 448.55883,263.70504 35.03959,23.75167"
+         style="fill:none;stroke:#000000;stroke-width:0.93120581px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.93120581px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 451.14564,262.29405 35.03958,23.75166"
+         id="path3843"
+         inkscape:connector-curvature="0" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.93120581px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 446.20717,265.82152 35.03958,23.75165"
+         id="path3845"
+         inkscape:connector-curvature="0" />
+      <path
+         style="fill:#4d4d4d;stroke:#000000;stroke-width:0.93120581px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 466.66654,282.51824 -10.17089,-6.58463 -3.46869,1.88132 10.58241,6.81979 z"
+         id="path3849"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="ccccc" />
+    </g>
+    <g
+       id="g6005"
+       transform="matrix(0.87162637,0,0,0.87162637,-92.97828,-69.302623)"
+       inkscape:export-filename="/home/krother/Desktop/courses/python/algorithmics/backpack_problem/burglar.png"
+       inkscape:export-xdpi="70.044586"
+       inkscape:export-ydpi="70.044586">
+      <g
+         transform="matrix(0.38829036,0,0,0.38829036,860.67601,263.47403)"
+         id="g3702">
+        <path
+           sodipodi:type="arc"
+           style="opacity:0.9;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+           id="path2985-6"
+           sodipodi:cx="447.49759"
+           sodipodi:cy="371.51938"
+           sodipodi:rx="18.182745"
+           sodipodi:ry="45.456863"
+           d="m 465.68033,371.51938 c 0,25.10513 -8.14069,45.45686 -18.18274,45.45686 -10.04205,0 -18.18275,-20.35173 -18.18275,-45.45686 0,-25.10513 8.1407,-45.45686 18.18275,-45.45686 10.04205,0 18.18274,20.35173 18.18274,45.45686 z"
+           transform="matrix(1.35661,0,0,0.99819953,-1117.5632,-244.36328)"
+           inkscape:export-filename="C:\Documents and Settings\Kristian\Pulpit\cutlery.png"
+           inkscape:export-xdpi="150.1313"
+           inkscape:export-ydpi="150.1313" />
+        <path
+           sodipodi:type="arc"
+           style="opacity:0.9;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+           id="path2987-5"
+           sodipodi:cx="443.45697"
+           sodipodi:cy="489.70721"
+           sodipodi:rx="2.0203052"
+           sodipodi:ry="52.527931"
+           d="m 445.47728,489.70721 c 0,29.01038 -0.90453,52.52794 -2.02031,52.52794 -1.11578,0 -2.0203,-23.51756 -2.0203,-52.52794 0,-29.01037 0.90452,-52.52793 2.0203,-52.52793 1.11578,0 2.02031,23.51756 2.02031,52.52793 z"
+           transform="matrix(2.5857143,0,0,1.0706044,-1657.1366,-323.04423)"
+           inkscape:export-filename="C:\Documents and Settings\Kristian\Pulpit\cutlery.png"
+           inkscape:export-xdpi="150.1313"
+           inkscape:export-ydpi="150.1313" />
+        <path
+           sodipodi:type="arc"
+           style="opacity:0.9;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+           id="path2989-6"
+           sodipodi:cx="450.52805"
+           sodipodi:cy="534.15393"
+           sodipodi:rx="7.0710678"
+           sodipodi:ry="31.31473"
+           d="m 457.59911,534.15393 c 0,17.29465 -3.16582,31.31473 -7.07106,31.31473 -3.90525,0 -7.07107,-14.02008 -7.07107,-31.31473 0,-17.29465 3.16582,-31.31473 7.07107,-31.31473 3.90524,0 7.07106,14.02008 7.07106,31.31473 z"
+           transform="matrix(0.99178387,0,0,1.2562093,-957.30998,-415.22241)"
+           inkscape:export-filename="C:\Documents and Settings\Kristian\Pulpit\cutlery.png"
+           inkscape:export-xdpi="150.1313"
+           inkscape:export-ydpi="150.1313" />
+        <path
+           transform="matrix(2.5857143,0,0,1.0706044,-1716.1018,-323.04423)"
+           d="m 445.47728,489.70721 c 0,29.01038 -0.90453,52.52794 -2.02031,52.52794 -1.11578,0 -2.0203,-23.51756 -2.0203,-52.52794 0,-29.01037 0.90452,-52.52793 2.0203,-52.52793 1.11578,0 2.02031,23.51756 2.02031,52.52793 z"
+           sodipodi:ry="52.527931"
+           sodipodi:rx="2.0203052"
+           sodipodi:cy="489.70721"
+           sodipodi:cx="443.45697"
+           id="path2991-4"
+           style="opacity:0.9;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+           sodipodi:type="arc"
+           inkscape:export-filename="C:\Documents and Settings\Kristian\Pulpit\cutlery.png"
+           inkscape:export-xdpi="150.1313"
+           inkscape:export-ydpi="150.1313" />
+        <path
+           transform="matrix(0.99178387,0,0,1.2562093,-1016.2752,-415.22241)"
+           d="m 457.59911,534.15393 c 0,17.29465 -3.16582,31.31473 -7.07106,31.31473 -3.90525,0 -7.07107,-14.02008 -7.07107,-31.31473 0,-17.29465 3.16582,-31.31473 7.07107,-31.31473 3.90524,0 7.07106,14.02008 7.07106,31.31473 z"
+           sodipodi:ry="31.31473"
+           sodipodi:rx="7.0710678"
+           sodipodi:cy="534.15393"
+           sodipodi:cx="450.52805"
+           id="path2993-1"
+           style="opacity:0.9;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+           sodipodi:type="arc"
+           inkscape:export-filename="C:\Documents and Settings\Kristian\Pulpit\cutlery.png"
+           inkscape:export-xdpi="150.1313"
+           inkscape:export-ydpi="150.1313" />
+        <path
+           sodipodi:type="arc"
+           style="opacity:0.9;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+           id="path2995-1"
+           sodipodi:cx="443.45697"
+           sodipodi:cy="489.70721"
+           sodipodi:rx="2.0203052"
+           sodipodi:ry="52.527931"
+           d="m 445.47728,489.70721 c 0,29.01038 -0.90453,52.52794 -2.02031,52.52794 -1.11578,0 -2.0203,-23.51756 -2.0203,-52.52794 0,-29.01037 0.90452,-52.52793 2.0203,-52.52793 1.11578,0 2.02031,23.51756 2.02031,52.52793 z"
+           transform="matrix(2.5857143,0,0,1.0706044,-1758.038,-323.04423)"
+           inkscape:export-filename="C:\Documents and Settings\Kristian\Pulpit\cutlery.png"
+           inkscape:export-xdpi="150.1313"
+           inkscape:export-ydpi="150.1313" />
+        <path
+           sodipodi:type="arc"
+           style="opacity:0.9;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+           id="path2997-9"
+           sodipodi:cx="450.52805"
+           sodipodi:cy="534.15393"
+           sodipodi:rx="7.0710678"
+           sodipodi:ry="31.31473"
+           d="m 457.59911,534.15393 c 0,17.29465 -3.16582,31.31473 -7.07106,31.31473 -3.90525,0 -7.07107,-14.02008 -7.07107,-31.31473 0,-17.29465 3.16582,-31.31473 7.07107,-31.31473 3.90524,0 7.07106,14.02008 7.07106,31.31473 z"
+           transform="matrix(0.99178387,0,0,1.2562093,-1058.2114,-415.22241)"
+           inkscape:export-filename="C:\Documents and Settings\Kristian\Pulpit\cutlery.png"
+           inkscape:export-xdpi="150.1313"
+           inkscape:export-ydpi="150.1313" />
+        <path
+           style="opacity:0.9;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0"
+           d="m -624.51693,84.060753 c 0.46425,-5.04064 10.36149,-8.32632 14.6472,-4.04061 3.09524,3.09524 3.03046,12.12185 3.03046,12.12185 l 0,77.781717 c 0,0 -15.1253,5.23323 -18.18274,0 -3.00624,-5.14559 -2.9369,-48.49184 0.50508,-85.862957 z"
+           id="rect2999"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="ssccss"
+           inkscape:export-filename="C:\Documents and Settings\Kristian\Pulpit\cutlery.png"
+           inkscape:export-xdpi="150.1313"
+           inkscape:export-ydpi="150.1313" />
+        <path
+           style="opacity:0.9;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.70468682;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0"
+           d="m -569.92578,160.46781 c 0,0 15.32987,5.5784 20.17331,-4.03125 3.45227,-6.8495 4.57003,-77.311267 3,-78.031247 -0.13841,-0.0635 -0.31363,-0.049 -0.46875,-0.0625 -6.64281,0.19933 -4.59073,63.945977 -9.65625,63.624997 -4.55595,-0.28869 -1.18629,-63.389787 -4.53966,-63.346287 -4.07773,-0.50671 -5.75788,62.786487 -8.20658,62.876837 -3.88097,0.14319 -4.22598,-62.571797 -8.27407,-62.624297 -3.35337,-0.0435 0.52583,62.857757 -4.79219,63.093747 -4.55998,0.20235 -2.98219,-63.425667 -9.625,-63.624997 -0.15512,0.0135 -0.33034,-0.001 -0.46875,0.0625 -1.57003,0.71998 -0.48352,71.181747 2.96875,78.031247 4.84344,9.60965 20,4.03125 20,4.03125"
+           id="rect3002"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="csccscsssccsc"
+           inkscape:export-filename="C:\Documents and Settings\Kristian\Pulpit\cutlery.png"
+           inkscape:export-xdpi="150.1313"
+           inkscape:export-ydpi="150.1313" />
+      </g>
+    </g>
+    <g
+       id="g3509"
+       transform="matrix(0.80516177,0,0,0.80516177,330.81686,21.853852)"
+       inkscape:export-filename="/home/krother/Desktop/courses/python/algorithmics/backpack_problem/burglar.png"
+       inkscape:export-xdpi="70.044586"
+       inkscape:export-ydpi="70.044586">
+      <path
+         sodipodi:nodetypes="csscc"
+         inkscape:connector-curvature="0"
+         id="path3496"
+         d="m 235.71875,422.875 c -4.05489,1.85277 -8.51702,2.875 -13.21875,2.875 -18.37491,0 -33.28125,-15.68003 -33.28125,-35.03125 0,-19.35122 14.90634,-35.03125 33.28125,-35.03125 5.22553,-0.22766 13.21875,2.875 13.21875,2.875"
+         style="fill:none;stroke:#000000;stroke-width:10;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+      <rect
+         y="383.04892"
+         x="181.75816"
+         height="0.76938742"
+         width="47.197956"
+         id="rect3502"
+         style="fill:none;stroke:#000000;stroke-width:5.94489813;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+      <rect
+         style="fill:none;stroke:#000000;stroke-width:5.94489813;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+         id="rect3504"
+         width="47.197956"
+         height="0.76938742"
+         x="181.75816"
+         y="396.26321" />
+    </g>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       d="m 549.11009,141.12811 c -16.36167,0 -30.75542,8.25335 -39.11752,20.7423 -11.49733,-4.27657 -24.73184,-6.74126 -38.85761,-6.74126 -42.95413,0 -77.95367,22.55552 -79.46965,50.75382 -2.42219,-0.42559 -4.91964,-0.64819 -7.44014,-0.64819 -28.07842,0 -50.84627,27.35525 -50.84627,61.09254 0,26.96253 14.56003,49.81355 34.73142,57.91639 -1.57924,3.49979 -2.43673,7.1504 -2.43673,10.95453 0,22.91131 30.59303,41.4846 68.32571,41.4846 6.70987,0 13.17265,-0.59071 19.29885,-1.68531 8.54082,19.81349 34.87716,34.25719 66.08392,34.25719 26.14681,0 48.8791,-10.1452 60.59318,-25.08522 6.82694,2.28304 14.15909,3.56509 21.83303,3.56509 33.57042,0 61.15308,-23.82665 64.23202,-54.25408 18.18877,-11.26046 30.63773,-34.11885 30.63773,-60.50917 0,-37.53799 -25.17136,-67.96343 -56.23957,-67.96343 -0.52376,0 -1.03918,0.0477 -1.55951,0.0648 0.0282,-0.57489 0.065,-1.13679 0.065,-1.71772 0,-22.09306 -20.60928,-39.99374 -46.03782,-39.99374 -1.22529,0 -2.43767,0.048 -3.63884,0.12963 -8.1719,-13.40024 -23.09095,-22.36278 -40.1572,-22.36278 z"
+       id="path6049"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/krother/Desktop/courses/python/algorithmics/backpack_problem/burglar.png"
+       inkscape:export-xdpi="70.044586"
+       inkscape:export-ydpi="70.044586" />
+    <g
+       id="g7540"
+       transform="matrix(1.1299453,0,0,1.1299453,-54.692021,-129.03997)"
+       inkscape:export-filename="/home/krother/Desktop/courses/python/algorithmics/backpack_problem/burglar.png"
+       inkscape:export-xdpi="70.044586"
+       inkscape:export-ydpi="70.044586">
+      <path
+         id="path2985"
+         d="m 250.46875,409.46875 c -23.58776,3.64972 -67.90103,6.8522 -92.15625,4.09375 -5.05324,10.37874 -7.96875,22.536 -7.96875,35.5625 0,37.94042 24.67987,68.71875 55.125,68.71875 30.44513,0 55.125,-30.77833 55.125,-68.71875 0,-14.78036 -3.75215,-28.45 -10.125,-39.65625 z"
+         style="fill:none;stroke:#000000;stroke-width:4.92545271;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+         inkscape:connector-curvature="0" />
+      <path
+         sodipodi:nodetypes="zzzzz"
+         inkscape:connector-curvature="0"
+         id="path6081"
+         d="m 265.67011,405.86456 c -8.81449,5.77727 -122.29184,15.88201 -124.24876,1.01015 -1.95692,-14.87186 -9.81791,-30.2785 2.02031,-41.41625 11.83822,-11.13775 122.21718,22.98668 125.25891,27.27412 3.04173,4.28744 5.78403,7.35471 -3.03046,13.13198 z"
+         style="fill:url(#Checkerboard);fill-opacity:1;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="ccccc"
+         inkscape:connector-curvature="0"
+         id="path6083"
+         d="m 253.54829,418.99653 c 6.79428,11.76371 8.69442,25.27533 6.06092,40.40611 l -109.07569,-20.33759 -1.03094,-9.96699 z"
+         style="fill:#000000;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         transform="translate(1.5152288,2.2728432)"
+         d="m 254.55844,435.15897 c 0,4.74208 -4.74873,8.58629 -10.6066,8.58629 -5.85786,0 -10.6066,-3.84421 -10.6066,-8.58629 0,-4.74208 4.74874,-8.5863 10.6066,-8.5863 5.85787,0 10.6066,3.84422 10.6066,8.5863 z"
+         sodipodi:ry="8.586297"
+         sodipodi:rx="10.606602"
+         sodipodi:cy="435.15897"
+         sodipodi:cx="243.95184"
+         id="path6085"
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+         sodipodi:type="arc" />
+      <path
+         transform="translate(-20.203051,2.7779195)"
+         sodipodi:type="arc"
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+         id="path6087"
+         sodipodi:cx="243.95184"
+         sodipodi:cy="435.15897"
+         sodipodi:rx="10.606602"
+         sodipodi:ry="8.586297"
+         d="m 254.55844,435.15897 c 0,4.74208 -4.74873,8.58629 -10.6066,8.58629 -5.85786,0 -10.6066,-3.84421 -10.6066,-8.58629 0,-4.74208 4.74874,-8.5863 10.6066,-8.5863 5.85787,0 10.6066,3.84422 10.6066,8.5863 z" />
+      <path
+         id="path6089"
+         d="m 207.625,474.8125 c -0.13969,0.62071 -0.25,1.22695 -0.25,1.875 0,6.73593 7.83514,12.21875 17.5,12.21875 9.66486,0 17.5,-5.48282 17.5,-12.21875 0,-0.64703 -0.0795,-1.25521 -0.21875,-1.875 l -34.53125,0 z"
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+         inkscape:connector-curvature="0" />
+      <path
+         transform="translate(0.35714288,-0.71428572)"
+         d="m 248.57143,439.86218 c 0,1.38071 -1.11929,2.5 -2.5,2.5 -1.38072,0 -2.5,-1.11929 -2.5,-2.5 0,-1.38071 1.11928,-2.5 2.5,-2.5 1.38071,0 2.5,1.11929 2.5,2.5 z"
+         sodipodi:ry="2.5"
+         sodipodi:rx="2.5"
+         sodipodi:cy="439.86218"
+         sodipodi:cx="246.07143"
+         id="path7536"
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+         sodipodi:type="arc" />
+      <path
+         inkscape:transform-center-x="-10"
+         sodipodi:type="arc"
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+         id="path7538"
+         sodipodi:cx="246.07143"
+         sodipodi:cy="439.86218"
+         sodipodi:rx="2.5"
+         sodipodi:ry="2.5"
+         d="m 248.57143,439.86218 c 0,1.38071 -1.11929,2.5 -2.5,2.5 -1.38072,0 -2.5,-1.11929 -2.5,-2.5 0,-1.38071 1.11928,-2.5 2.5,-2.5 1.38071,0 2.5,1.11929 2.5,2.5 z"
+         transform="translate(-21.785714,-1.0714286)" />
+    </g>
+    <path
+       sodipodi:type="arc"
+       style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path7552"
+       sodipodi:cx="271.42856"
+       sodipodi:cy="376.64789"
+       sodipodi:rx="11.428572"
+       sodipodi:ry="11.428572"
+       d="m 282.85713,376.64789 a 11.428572,11.428572 0 1 1 -22.85714,0 11.428572,11.428572 0 1 1 22.85714,0 z"
+       transform="translate(5.7142857,-8.5714286)"
+       inkscape:export-filename="/home/krother/Desktop/courses/python/algorithmics/backpack_problem/burglar.png"
+       inkscape:export-xdpi="70.044586"
+       inkscape:export-ydpi="70.044586" />
+    <path
+       sodipodi:type="arc"
+       style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path7554"
+       sodipodi:cx="300"
+       sodipodi:cy="348.07648"
+       sodipodi:rx="14.285714"
+       sodipodi:ry="14.285714"
+       d="m 314.28571,348.07648 a 14.285714,14.285714 0 1 1 -28.57142,0 14.285714,14.285714 0 1 1 28.57142,0 z"
+       transform="translate(14.285714,-7.1428571)"
+       inkscape:export-filename="/home/krother/Desktop/courses/python/algorithmics/backpack_problem/burglar.png"
+       inkscape:export-xdpi="70.044586"
+       inkscape:export-ydpi="70.044586" />
+  </g>
+</svg>
