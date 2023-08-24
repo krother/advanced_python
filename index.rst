@@ -76,8 +76,16 @@ Challenges
    :maxdepth: 1
 
    challenges/factorial.rst
-   challenges/tennis.rst
-   challenges/metaclass.rst
+   challenges/sorting.md
+   challenges/tennis.md
+   challenges/magic_square.md
+   challenges/josephus.md
+   challenges/tree_traversal.md
+   challenges/maze.md
+   challenges/backpack_problem.md
+   challenges/chained_list.md
+   challenges/tsp.md
+   challenges/metaclass.md
 
 
 .. topic:: Source

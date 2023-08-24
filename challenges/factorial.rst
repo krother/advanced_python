@@ -1,7 +1,11 @@
 Factorials
 ==========
 
-Write a recursive function that calculates factorials (n!)
+**🎯 Calculate the factorial of a number (n!):**
+
+.. code:: python3
+
+   1 * 2 * 3 * 4 ... * 10
 
 .. code:: python3
 
@@ -16,3 +20,12 @@ Write a recursive function that calculates factorials (n!)
    assert factorial(2) == 2
    assert factorial(3) == 6
    assert factorial(7) == 5040
+
+
+Extra Challenges
+----------------
+
+* implement the program as a *recursive function*
+
+
+*Translated with [www.DeepL.com](www.DeepL.com/Translator)*

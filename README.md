@@ -52,8 +52,18 @@ Examples of advanced Python programming techniques
 
 | Challenge | Difficulty |
 |-----------|---------------|
+| [Factorial](challenges/factorial.rst) | ⭐ |
+| [Sorting Algorithms](challenges/sorting.md) | ⭐ |
 | [Tennis](challenges/tennis.md) | ⭐⭐ |
+| [Magic Square](challenges/magic_square.md) | ⭐⭐ |
+| [Josephus Problem](challenges/josephus.md) | ⭐⭐ |
+| [Tree Traversal](challenges/tree_traversal.md) | ⭐⭐ |
+| [Maze](challenges/maze.md) | ⭐⭐ |
+| [Backpack Problem](challenges/backpack_problem.md) | ⭐⭐⭐ |
+| [Chained List](challenges/chained_list.md) | ⭐⭐ |
+| [Traveling Salesman](challenges/tsp.md) | ⭐⭐⭐ |
 | [Decorator-Metaclass](challenges/metaclass.md) | ⭐⭐⭐⭐⭐ |
+
 
 ## Source
 
