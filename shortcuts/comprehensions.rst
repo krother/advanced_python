@@ -96,3 +96,42 @@ Finally, you can use a comprehension to define generators:
 
    squares = (x ** 2 for x in range(1_000_000_000_000_000))
    print(next(squares))
+
+----
+
+
+Recap: Number Comprehensions
+----------------------------
+
+Create the following data with one-liners:
+
+.. code:: python3
+
+    # 1. integers
+    a = ...
+    assert a == [1, 2, 3, 4, 5, 6]
+
+    # 2. squares
+    a = ...
+    assert a == [1, 4, 9, 16, 25, 36]
+
+    # 3. fractions
+    a = ...
+    assert a == [1.0, 0.5, 0.33, 0.25, 0.2, 0.17, 0.14]
+
+    # 4. filtering
+    a = range(100)
+    b = ... a ...
+    assert b == [11, 22, 33, 44, 55, 66, 77, 88, 99]
+
+    # 5. dictionary of squares
+    a = ...
+    assert a == {1: 1, 2: 4, 3: 9, 4: 16, 5: 25, 6: 36}
+
+    # 6. split
+    b = ...
+    assert b == [[1, 2], [3, 4], [5, 6]]
+
+    # 7. concatenate
+    c = ... b ...
+    assert c == [1, 2, 3, 4, 5, 6]
