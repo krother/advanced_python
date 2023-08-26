@@ -5,13 +5,15 @@
 
 ![double dice](double_dice.png)
 
-Implement the following steps:
+Write a class `Dice` that:
 
-* display the image of a dice
-* Change the dice image a few times (as animation effect)
-* show a random dice result
-* add a second dice
-* roll again until both dice show the same number
+* displays the image of a dice
+* changes the dice image a few times (as animation effect)
+* shows a random dice result
+* stores the result as an attribute
+
+Write a program that creates two Dice objects.
+Re-roll both dice until they show the same number
 
 ## Hints
 
@@ -21,4 +23,4 @@ Implement the following steps:
 
 ![dice faces](images/pillow_dice.png)
 
-*Translated with [www.DeepL.com](www.DeepL.com/Translator)*
+*Translated with [www.DeepL.com](https://www.DeepL.com/Translator)*

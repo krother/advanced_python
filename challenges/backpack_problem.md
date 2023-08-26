@@ -43,4 +43,4 @@ Use the following pseudocode:
 10. print the best combination for the desired size
 
 
-*Translated with [www.DeepL.com](www.DeepL.com/Translator)*
+*Translated with [www.DeepL.com](https://www.DeepL.com/Translator)*

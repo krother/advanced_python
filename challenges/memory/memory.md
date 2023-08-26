@@ -14,7 +14,7 @@ The images have a 256 x 256 pixel size and are placed 300 pixels apart.
 * the `arcade` library allows you to include graphics and act on user input.
 * you find more images on [unsplash.com](https://unsplash.com) and [opengameart.org](https://opengameart.org/).
 
-*Translated with [www.DeepL.com](www.DeepL.com/Translator)*
+*Translated with [www.DeepL.com](https://www.DeepL.com/Translator)*
 
 
 ## Image sources

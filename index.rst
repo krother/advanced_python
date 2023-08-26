@@ -77,16 +77,27 @@ Challenges
 
    challenges/factorial.rst
    challenges/sorting.md
+   challenges/dice/dice.md
    challenges/tennis.md
+   challenges/memory/memory.md
    challenges/magic_square.md
    challenges/josephus.md
+   challenges/binary_search.md
    challenges/tree_traversal.md
    challenges/maze.md
    challenges/backpack_problem.md
    challenges/chained_list.md
    challenges/tsp.md
+   challenges/blockchain.md
    challenges/metaclass.md
 
+Appendix
+---------
+
+.. toctree::
+   :maxdepth: 1
+
+   links.rst
 
 .. topic:: Source
 
