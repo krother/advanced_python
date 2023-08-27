@@ -1,7 +1,7 @@
 Decorators with a Metaclass
 ===========================
 
-**🎯 Implement the decorator ``add_two``, so that the following code:**
+**🎯 Implement the decorator `add_two`, so that the following code works:**
 
 .. code:: python3
 
@@ -12,7 +12,7 @@ Decorators with a Metaclass
    print(double(20))
    print(add_two(40))
 
-**results in:**
+**you should get the output:**
 
 ::
 
@@ -45,7 +45,7 @@ Optional Goal 1
 ---------------
 
 If the exercise was too easy for you, implement the decorator as a
-class. For this you have to deal with the term ``metaclass``.
+class. For this you have to deal with the term `metaclass`.
 
 Optional Goal 2
 ---------------
@@ -62,6 +62,6 @@ each other:
 
    double(19)
 
-shall result in ``42``.
+shall result in `42`.
 
 *Translated with* `www.DeepL.com <www.DeepL.com/Translator>`__

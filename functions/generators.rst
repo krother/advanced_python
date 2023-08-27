@@ -1,7 +1,7 @@
 Generators
 ==========
 
-Generators are *lazy functions. They produce results like normal
+Generators are *lazy* functions. They produce results like normal
 Python functions, but only when they are needed. The main purpose of
 using generators is to save memory and calculation time when processing
 big datasets.

@@ -1,7 +1,7 @@
 Tennis
 ======
 
-**🎯 Write a class ``TennisGame`` that determines the score of a round of tennis.**
+**🎯 Write a class `TennisGame` that determines the score of a round of tennis.**
 
 Use the following structure:
 
@@ -32,4 +32,4 @@ Use the following structure:
    4. If both players have at least three points, the score with equal points is *"deuce"*.
    5. If both players have at least three points, the score will be *"Advantage Player 1"* or *"Advantage Player 2"* depending on which player has more points.
 
-*Translated with*\ `www.DeepL.com <www.DeepL.com/Translator>`__
+*Translated with `www.DeepL.com <www.DeepL.com/Translator>`__ *
