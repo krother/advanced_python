@@ -28,5 +28,7 @@ jobs:
         username: ${{ secrets.ACADEMIS_USERNAME }}
         port: 22
         key: ${{ secrets.SSH_PRIVATE_KEY }}
-        source: "build/html/*"
-        target: "/www/academis/advanced_python"
+        source: build/html/*
+        target: /www/academis/advanced_python
+        rm: true
+        strip_components: 2
