@@ -13,8 +13,6 @@ http://pymust.watch/
 
 Raymond on Concurrency: https://www.youtube.com/watch?v=Bv25Dwe84g0
 
-Raymond on dict 3.6 https://www.youtube.com/watch?v=p33CVV29OG8
-
 https://www.pythonsheets.com/
 
 https://codesachin.wordpress.com/2016/04/03/a-practical-introduction-to-functional-programming-for-python-coders/
