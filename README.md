@@ -5,11 +5,13 @@ Examples of advanced Python programming techniques
 
 ## Functions
 
-* [Function Parameters](functions/function_parameters/)
+* [Function Parameters](functions/function_parameters.md)
+* [Variable Scope](functions/scope.md)
 * [Lambda Functions](functions/lambda_functions.md)
 * [Generator Functions](functions/generators.md)
 * [Map-Filter-Reduce](functions/functools.md)
 * [Decorators](functions/decorators.md)
+* [Exercise](functions/exercises.md)
 
 ## Shortcuts
 
@@ -31,6 +33,7 @@ Examples of advanced Python programming techniques
 * [Inheritance](classes/inheritance.md)
 * [Object Composition](classes/composition.md)
 * [Operator Overloading](classes/operator_overloading.md)
+* [Abstract Base Classes](classes/abc.md)
 * [Decorator Classes](classes/decorator_class.md)
 * [Metaclasses](classes/metaclasses.md)
 
@@ -44,6 +47,23 @@ Examples of advanced Python programming techniques
 ## Parallel Programming
 
 * [Concurrency](concurrency/)
+
+## Challenges
+
+| Challenge | Difficulty |
+|-----------|---------------|
+| [Factorial](challenges/factorial.rst) | ⭐ |
+| [Sorting Algorithms](challenges/sorting.md) | ⭐ |
+| [Tennis](challenges/tennis.md) | ⭐⭐ |
+| [Magic Square](challenges/magic_square.md) | ⭐⭐ |
+| [Josephus Problem](challenges/josephus.md) | ⭐⭐ |
+| [Tree Traversal](challenges/tree_traversal.md) | ⭐⭐ |
+| [Maze](challenges/maze.md) | ⭐⭐ |
+| [Backpack Problem](challenges/backpack_problem.md) | ⭐⭐⭐ |
+| [Chained List](challenges/chained_list.md) | ⭐⭐ |
+| [Traveling Salesman](challenges/tsp.md) | ⭐⭐⭐ |
+| [Decorator-Metaclass](challenges/metaclass.md) | ⭐⭐⭐⭐⭐ |
+
 
 ## Source
 
