@@ -3,7 +3,7 @@
 
 **🎯 Optimize the value of a heist.**
 
-![Burglar](../images/burglar.png)
+![Burglar](burglar.png)
 
 A burglar broke into a villa. There he finds so many valuables that he can't put them all in his backpack. Write a program that makes an optimal selection.
 
