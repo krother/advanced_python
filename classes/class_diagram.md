@@ -11,7 +11,7 @@ Class diagrams are a graphical tool to structure your data and check whether it 
 
 Here is a class diagram for a `PlayingField` class, the box in which a snake will move:
 
-![class diagram for the PlayingField](images/class_playing_field.png)
+![class diagram for the PlayingField](class_playing_field.png)
 
 On top, the class diagram contains a **title**, the name of the class in `SnakeCase` notation.
 
@@ -87,7 +87,7 @@ Although our class does nothing yet, it helps to think about your desing and wri
 Usually, there is more than one way to design a class.
 Consider this alternative design for `PlayingField`:
 
-![alternative PlayingField class](images/class_playing_field_alt.png)
+![alternative PlayingField class](class_playing_field_alt.png)
 
 There are a few differences:
 
@@ -139,9 +139,10 @@ Class diagrams are conceptually very close to Entity-Relationship (ER) diagrams 
 Turn the class diagram of the Snake class into skeleton code.
 Leave all methods empty.
 
-![Snake class diagram](images/class_snake.png)
+![Snake class diagram](class_snake.png)
 
 ----
+
 ## Further Reading
 
 The class diagrams in this article were designed with the online tool [Creately](https://app.creately.com).

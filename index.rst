@@ -46,6 +46,7 @@ Structuring Programs
    structure/main_block.rst
    structure/commandline_args.rst
    structure/modules.rst
+   structure/namespaces.rst
 
 Object-Oriented Programming
 ---------------------------
@@ -87,20 +88,20 @@ Challenges
    :maxdepth: 1
 
    challenges/factorial.rst
-   challenges/sorting.md
+   challenges/sorting.rst
    challenges/dice/dice.rst
-   challenges/tennis.md
+   challenges/tennis.rst
    challenges/memory/memory.rst
-   challenges/magic_square.md
+   challenges/magic_square.rst
    challenges/josephus.rst
    challenges/binary_search.rst
    challenges/tree_traversal.rst
-   challenges/maze.md
-   challenges/backpack_problem.md
+   challenges/maze.rst
+   challenges/backpack_problem.rst
    challenges/chained_list.rst
-   challenges/tsp.md
-   challenges/blockchain.md
-   challenges/metaclass.md
+   challenges/tsp.rst
+   challenges/blockchain.rst
+   challenges/metaclass.rst
    project.rst
 
 Appendix

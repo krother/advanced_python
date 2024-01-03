@@ -27,4 +27,4 @@ Hints
    :alt: dice faces
 
 
-*Translated with*\ `www.DeepL.com <https://www.DeepL.com/Translator>`__
+*Translated with* `www.DeepL.com <https://www.DeepL.com/Translator>`__

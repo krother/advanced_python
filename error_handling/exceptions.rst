@@ -53,6 +53,15 @@ don’t get any clues what exactly went wrong.
 
 This is called the *“diaper pattern”* and considered a very bad habit.
 
+What Exceptions to catch
+------------------------
+
+-   File operations
+-   web operations
+-   big function calls
+-   database operations
+-   NEVER CATCH everything
+
 ----
 
 Creating your own Exceptions

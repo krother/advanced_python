@@ -72,7 +72,7 @@ only one extra recursion is necessary.
 Visual Explanation
 ------------------
 
-.. figure:: .binary-search.png
+.. figure:: binary-search.png
    :alt: BINÄRY SEARCH
 
 *source: idea-instructions.com, CC-BY-NC-SA 4.0*
