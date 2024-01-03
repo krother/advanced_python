@@ -3,6 +3,17 @@ Advanced Python
 
 Examples of advanced Python programming techniques
 
+Setting up a Python Project
+---------------------------
+
+.. toctree::
+   :maxdepth: 1
+
+   getting_started/structure.rst
+   getting_started/virtualenv.rst
+   getting_started/git_repo.rst
+
+
 Functions
 ---------
 
@@ -26,8 +37,8 @@ Shortcuts
    shortcuts/comprehensions.rst
    shortcuts/enums.rst
 
-Structuring Code
-----------------
+Structuring Programs
+--------------------
 
 .. toctree::
    :maxdepth: 1
@@ -36,8 +47,8 @@ Structuring Code
    structure/commandline_args.rst
    structure/modules.rst
 
-Object-Oriented Programming in Python
--------------------------------------
+Object-Oriented Programming
+---------------------------
 
 .. toctree::
    :maxdepth: 1
@@ -45,6 +56,7 @@ Object-Oriented Programming in Python
    classes/classes.rst
    classes/inheritance.rst
    classes/composition.rst
+   classes/class_diagram.md
    classes/operator_overloading.rst
    classes/abc.rst
    classes/decorator_class.rst
