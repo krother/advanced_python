@@ -89,6 +89,7 @@ Challenges
    challenges/tsp.md
    challenges/blockchain.md
    challenges/metaclass.md
+   project.rst
 
 Appendix
 ---------
