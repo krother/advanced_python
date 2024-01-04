@@ -15,29 +15,42 @@ A prototype can answer questions like:
 -  what safety/security risks are there?
 -  did we understand the customer correctly?
 
-A Prototype for a Snake game
-----------------------------
+A Prototype for a Dungeon Explorer game
+---------------------------------------
 
-Let's look at a prototype for a Snake game.
-The program is a simple game where you move a graphical icon using the keyboard.
+Let's look at a prototype for a Dungeon Explorer game.
+In the program you move a graphical icon using the keyboard.
 The goal of this prototype is to prove that you can process keyboard input
 and draw 2D graphics.
 
-The prototype helps us to get rid of installation and environment issues right away.
+The prototype helps us to get rid of installation issues right away.
 
 Exercise 1: Save the code
 -------------------------
 
-Save the code in :download:`snake_prototype.py <snake_prototype.py>` to a Python file.
+Save the code in :download:`prototype_opencv.py` to a Python file.
 
-Exercise 2: Windows installation
+Exercise 2: Install Dependencies
 --------------------------------
 
-On Windows, you need to install ``windows-curses``:
+You need to install some libraries.
+Open a terminal (on Windows: Anaconda Prompt) and type:
 
 ::
 
-   pip install windows-curses
+   pip install numpy python-opencv
+
+.. hint::
+
+   In case the installation, try the fallback code in :download:`prototype_curses.py`.
+   That second prototype runs in the terminal and does not require OpenCV.
+
+   On Windows, you need to install ``windows-curses`` though:
+
+   ::
+   
+      pip install windows-curses
+   
 
 Exercise 3: Execute the prototype
 ---------------------------------
@@ -46,9 +59,9 @@ Change to the directory with the ``.py`` file and execute the code with:
 
 ::
 
-   python prototype.py
+   python prototype_opencv.py
 
-You should see a screen where you can control the ``'O'`` with the keys **W, A, S and D**:
+You should see a screen where you can control the ``'O'`` with the keys **A and D**:
 
 .. figure:: prototype.png
    :alt: prototype output
@@ -62,11 +75,16 @@ Inspect the Python file. Take notes to answer the following questions:
 * What do you not like about the code?
 * What would you like to know more about?
 
+Exercise 5: Modify
+------------------
+
+Add the two missing directions.
+
 Reflection Questions
 --------------------
 
 Discuss the following questions:
 
--  Can you think of a software project with special risks?
+-  Can you think of any software projects with special risks?
 -  Could these risks be mitigated by writing a prototype?
 -  Do you know other engineering disciplines where prototypes are used?
