@@ -1,15 +1,22 @@
+"""
+Proof-of-concept: move around in a 2D frame
 
+pip install opencv-python
+"""
 import numpy as np
 import cv2
 
 
 MAXX, MAXY = 800, 800
 
-background = np.zeros((MAXY, MAXX, 3), np.uint8)
-player = cv2.imread('player.png')
+tiles = cv2.imread('tiles.png')
+tile_size = 32
 
-tile_size = player.shape[0]
+wall = tiles[:tile_size, :tile_size]
+player = tiles[:tile_size, tile_size * 3: tile_size * 4]
+
 x, y = 5, 5
+background = np.zeros((MAXY, MAXX, 3), np.uint8)
 
 while True:
 
