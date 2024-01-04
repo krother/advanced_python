@@ -1,7 +1,19 @@
 Advanced Python
 ===============
 
-Examples of advanced Python programming techniques
+This coursebook is for you if you want to write programs with more than 1000 lines.
+
+You feel comfortable with writing basic Python code, but have realized that creating a
+piece of software is more complex. You are facing questions like:
+
+-  How to organize code into functions, classes and modules?
+-  How to clean up my code?
+-  How to make sure my program works?
+-  How to keep the program running over time?
+-  How to install my program on multiple computers?
+
+Below you find development tools and techniques that help you to write
+programs that get the job done and don’t fall apart.
 
 Setting up a Python Project
 ---------------------------
@@ -9,9 +21,10 @@ Setting up a Python Project
 .. toctree::
    :maxdepth: 1
 
-   getting_started/structure.rst
+   getting_started/prototype.rst
    getting_started/virtualenv.rst
    getting_started/git_repo.rst
+   getting_started/structure.rst
 
 
 Functions
@@ -73,12 +86,13 @@ Error Handling
    error_handling/warnings.rst
    error_handling/logging.rst
 
-Parallel Programming
---------------------
+Performance Optimization
+------------------------
 
 .. toctree::
    :maxdepth: 1
 
+   performance/profiling.rst
    concurrency/README.rst
 
 Challenges

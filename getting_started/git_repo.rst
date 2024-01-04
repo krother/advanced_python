@@ -1,4 +1,4 @@
-Set up a gitHub Repository
+Set up a GitHub Repository
 ==========================
 
 Version Control is in my opinion the single most important tool of
