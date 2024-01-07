@@ -76,6 +76,15 @@ Object-Oriented Programming
    classes/decorator_class.rst
    classes/metaclasses.rst
 
+Software Quality
+----------------
+
+.. toctree::
+   :maxdepth: 1
+
+   quality/continuous_integration.rst
+   quality/
+
 Error Handling
 --------------
 
