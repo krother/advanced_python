@@ -44,7 +44,7 @@ Open a terminal (on Windows: Anaconda Prompt) and type:
 
 ::
 
-   pip install numpy python-opencv
+   pip install opencv-python
 
 .. hint::
 
