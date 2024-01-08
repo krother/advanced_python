@@ -1,5 +1,10 @@
 """
 Proof-of-concept: move around in a 2D frame
+
+On Windows, you need to install `windows-curses`:
+   
+    pip install windows-curses
+
 """
 import curses
 

@@ -15,8 +15,12 @@ A prototype can answer questions like:
 -  what safety/security risks are there?
 -  did we understand the customer correctly?
 
-A Prototype for a Dungeon Explorer game
----------------------------------------
+A Prototype for Dungeon Explorer
+--------------------------------
+
+.. image:: title.png
+
+*image generated with dreamstudio*
 
 Let's look at a prototype for a Dungeon Explorer game.
 In the program you move a graphical icon using the keyboard.
@@ -29,6 +33,8 @@ Exercise 1: Save the code
 -------------------------
 
 Save the code in :download:`prototype_opencv.py` to a Python file.
+
+Also unzip the tile images in :download:`tiles.zip` to the folder containing the Python file.
 
 Exercise 2: Install Dependencies
 --------------------------------
@@ -44,12 +50,7 @@ Open a terminal (on Windows: Anaconda Prompt) and type:
 
    In case the installation, try the fallback code in :download:`prototype_curses.py`.
    That second prototype runs in the terminal and does not require OpenCV.
-
-   On Windows, you need to install ``windows-curses`` though:
-
-   ::
-   
-      pip install windows-curses
+   See the source code for further info.
    
 
 Exercise 3: Execute the prototype
@@ -61,10 +62,8 @@ Change to the directory with the ``.py`` file and execute the code with:
 
    python prototype_opencv.py
 
-You should see a screen where you can control the ``'O'`` with the keys **A and D**:
+You should see a screen where you can move a character with the keys **A and D**:
 
-.. figure:: prototype.png
-   :alt: prototype output
 
 Exercise 4: Code Review
 -----------------------

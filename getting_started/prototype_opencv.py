@@ -10,13 +10,14 @@ import cv2
 
 
 # constants measured in pixel
-SCREEN_SIZE_X, SCREEN_SIZE_Y = 800, 800
-TILE_SIZE = 32
+SCREEN_SIZE_X, SCREEN_SIZE_Y = 640, 640
+TILE_SIZE = 64
+
+size2x = lambda a: np.kron(a, np.ones((2, 2, 1), dtype=a.dtype))
 
 # load image and extract square tiles from it
-tiles = cv2.imread('tiles.png')
-wall = tiles[:TILE_SIZE, :TILE_SIZE]
-player = tiles[:TILE_SIZE, TILE_SIZE * 3: TILE_SIZE * 4]
+wall = size2x(cv2.imread('tiles/wall.png'))
+player = size2x(cv2.imread('tiles/deep_elf_high_priest.png'))
 
 # define boundaries of the 2D grid
 min_x, max_x = 0, SCREEN_SIZE_X // TILE_SIZE
@@ -26,7 +27,7 @@ min_y, max_y = 0, SCREEN_SIZE_Y // TILE_SIZE
 background = np.zeros((SCREEN_SIZE_Y, SCREEN_SIZE_X, 3), np.uint8)
 
 # starting position of the player
-x, y = 5, 5
+x, y = 4, 4
 
 while True:
 
