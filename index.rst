@@ -15,13 +15,22 @@ piece of software is more complex. You are facing questions like:
 Below you find development tools and techniques that help you to write
 programs that get the job done and don’t fall apart.
 
+Developing Software
+-------------------
+
+.. toctree::
+   :maxdepth: 1
+
+   software_engineering/README.rst
+   software_engineering/prototype.rst
+   software_engineering/code_review.rst
+
 Setting up a Python Project
 ---------------------------
 
 .. toctree::
    :maxdepth: 1
 
-   getting_started/prototype.rst
    getting_started/virtualenv.rst
    getting_started/git_repo.rst
    getting_started/structure.rst

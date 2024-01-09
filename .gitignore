@@ -99,4 +99,5 @@ ENV/
 
 # mypy
 .mypy_cache/
-getting_started/tiles/*
+
+software_engineering/tiles/*

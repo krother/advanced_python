@@ -18,10 +18,6 @@ A prototype can answer questions like:
 A Prototype for Dungeon Explorer
 --------------------------------
 
-.. image:: title.png
-
-*image generated with dreamstudio*
-
 Let's look at a prototype for a Dungeon Explorer game.
 In the program you move a graphical icon using the keyboard.
 The goal of this prototype is to prove that you can process keyboard input
@@ -64,20 +60,8 @@ Change to the directory with the ``.py`` file and execute the code with:
 
 You should see a screen where you can move a character with the keys **A and D**:
 
+.. image:: prototype.png
 
-Exercise 4: Code Review
------------------------
-
-Inspect the Python file. Take notes to answer the following questions:
-
-* What do you like about the code?
-* What do you not like about the code?
-* What would you like to know more about?
-
-Exercise 5: Modify
-------------------
-
-Add the two missing directions.
 
 Reflection Questions
 --------------------
