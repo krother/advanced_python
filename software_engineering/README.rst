@@ -58,9 +58,9 @@ Here is a short example of how the idea could be fleshed out more:
 === ==============================================================
 #   description
 === ==============================================================
-2.1 There are walls that are impassable
-2.2 There is an exit square that leads to the next level
-2.3 There are keys that are needed to open doors
+2.1 walls are impassable
+2.2 an exit square leads to the next level
+2.3 keys that are needed to open doors
 === ==============================================================
 
 3. Traps
@@ -69,9 +69,9 @@ Here is a short example of how the idea could be fleshed out more:
 === ==============================================================
 #   description
 === ==============================================================
-3.1 There are pits. If the player falls into one, they die
-3.2 There is green slime where the player loses health
-3.3 There are fireballs that travel in straight lines
+3.1 if the player falls into a pit, they die
+3.2 if the player steps into green slime, they lose health
+3.3 there are fireballs that travel in straight lines
 === ==============================================================
 
 The Design
