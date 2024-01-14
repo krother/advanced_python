@@ -42,6 +42,7 @@ Functions
 .. toctree::
    :maxdepth: 1
 
+   functions/levels.rst
    functions/function_parameters.rst
    functions/scope.rst
    functions/lambda_functions.rst
