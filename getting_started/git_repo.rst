@@ -121,8 +121,8 @@ You should see a message similar to:
 
 ::
 
-   kristian@mylaptop:~/projects$ git clone git@github.com:krother/snake.git
-   Cloning into 'snake'...
+   kristian@mylaptop:~/projects$ git clone git@github.com:krother/dungeon_explorer.git
+   Cloning into 'dungeon_explorer'...
    remote: Enumerating objects: 5, done.
    remote: Counting objects: 100% (5/5), done.
    remote: Compressing objects: 100% (4/4), done.
@@ -133,7 +133,7 @@ There also should be a new folder:
 
 ::
 
-   kristian@mylaptop:~/projects$ ls -la snake
+   kristian@mylaptop:~/projects$ ls -la dungeon_explorer
    total 24
    drwxrwxr-x  3 kristian kristian 4096 Mai 28 11:33 .
    drwxrwxr-x 50 kristian kristian 4096 Mai 28 11:33 ..
@@ -151,11 +151,11 @@ like this:
 
 ::
 
-   cd snake/
+   cd dungeon_explorer/
    cp ~/Desktop/prototype.py .
    git status
    git add prototype.py 
-   git commit -m "add a snake prototype"
+   git commit -m "add a dungeon_explorer prototype"
    git push
 
 To exectute ``git push``, you may need to `Add SSH keys to your GitHub

@@ -42,12 +42,12 @@ Once the installer finishes and you open a new terminal, you should see
 
 This means you are in an virtual environment called *“base”*.
 
-Let’s create a new one for a project called **snake**, specifying a
+Let’s create a new one for a project called **dungeon_explorer**, specifying a
 Python version:
 
 ::
 
-   conda create -n snake python=3.11
+   conda create -n dungeon_explorer python=3.11
 
 Behind the scenes **conda** creates a new subdirectory. This is where
 libraries for your project will be stored. There are also scripts to
@@ -62,9 +62,9 @@ To start working with your project, type:
 
 ::
 
-   conda activate snake
+   conda activate dungeon_explorer
 
-You should see a *(snake)* appearing at your prompt. Now, whenever you
+You should see *(dungeon_explorer)* appearing before your prompt. Now, whenever you
 use *pip* to install something, it will be installed only for
 *myproject*.
 
@@ -74,11 +74,12 @@ Now check which libraries you have installed:
 
    pip freeze
 
-You can install additional libraries with ``pip`` or ``conda``:
+You can install additional libraries with ``pip`` or ``conda``.
+For instance, you need to install OpenCV even if you already installed it in your base environment:
 
 ::
 
-   conda install pandas
+   conda install opencv-python
 
 When you want to switch back to the base environment, type:
 

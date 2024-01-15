@@ -10,13 +10,13 @@ Assume your project folder contains:
 
 ::
 
-   snake_game/   - module folder you want to import
-   tests/         - the test code for pytest
-   .git/          - the commit history (managed by git)
-   README.md      - documentation
-   LICENSE        - legal info
-   setup.py       - used by pip (see below)
-   .gitignore     - choose one on Github
+   dungeon_explorer/   - module folder you want to import
+   tests/              - the test code for pytest
+   .git/               - the commit history (managed by git)
+   README.md           - documentation
+   LICENSE             - legal info
+   setup.py            - used by pip (see below)
+   .gitignore          - choose one on Github
 
 The Project Folder
 ------------------
@@ -50,18 +50,16 @@ tells the installer what to install. You can use the following
        return open(os.path.join(os.path.dirname(__file__), "README.md")).read()
 
    setup(
-      name="snake_game",                        # snake is already taken on PyPi
-      version="0.0.1",                          # uses *semantic versioning*
-      description="a terminal-based snake game",   
+      name="dungeon_explorer",              # name used on PyPi
+      version="0.0.1",                      # uses *semantic versioning*
+      description="a simpl dungeon RPG",   
       long_description=get_readme(),
       author="your_name",
       author_email="your@name.com",
-      packages=["snake_game"],                  # the name of the folder with .py modules
+      packages=["dungeon_explorer"],        # the folder with .py modules
       url="https://github.com/...",
       license="MIT",
       classifiers=[
-         "Programming Language :: Python :: 3.8",
-         "Programming Language :: Python :: 3.9",
          "Programming Language :: Python :: 3.10",
          "Programming Language :: Python :: 3.11",
          "Programming Language :: Python :: 3.12",
@@ -97,12 +95,12 @@ you should be able to run from any other Python program:
 
 ::
 
-   import snake_game
+   import dungeon_explorer
 
 In other words, you don’t actually need to be in your project folder to
 use your program. This is super convenient! You can use your package
-from anywhere as if it were an official library, like **pandas** or
-**sklearn**. You should also see your package in the output of
+from anywhere as if it were an official library, like **numpy** or
+**pydantic**. You should also see your package in the output of
 ``pip list`` or ``pip freeze``.
 
 This method has the advantage that you can still edit your code, and the
@@ -168,7 +166,7 @@ install it with
 
 ::
 
-   pip install snake_game
+   pip install dungeon_explorer
 
 you need to follow a few more steps. This is not difficult but a bit
 tedious. We recommend the official
