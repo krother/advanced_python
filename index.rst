@@ -35,6 +35,14 @@ Setting up a Python Project
    getting_started/git_repo.rst
    getting_started/structure.rst
 
+Writing Automated Tests
+-----------------------
+
+.. toctree::
+   :maxdepth: 1
+
+   testing/facade.rst
+   testing/unit_test.rst
 
 Functions
 ---------
@@ -45,7 +53,6 @@ Functions
    functions/levels.rst
    functions/function_parameters.rst
    functions/scope.rst
-   functions/lambda_functions.rst
    functions/generators.rst
    functions/functools.rst
    functions/decorators.rst
