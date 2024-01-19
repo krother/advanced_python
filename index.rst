@@ -108,6 +108,8 @@ Error Handling
 .. toctree::
    :maxdepth: 1
 
+   error_handling/debugging.rst
+   error_handling/interactive_debugger.rst
    error_handling/exceptions.rst
    error_handling/warnings.rst
    error_handling/logging.rst
