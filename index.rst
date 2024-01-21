@@ -123,6 +123,14 @@ Performance Optimization
    performance/profiling.rst
    concurrency/README.rst
 
+Refactoring
+-----------
+
+.. toctree::
+   :maxdepth: 1
+
+   functions/refactor_tetris.rst
+
 Challenges
 ----------
 
