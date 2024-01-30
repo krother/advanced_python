@@ -35,17 +35,15 @@ as an app for amateur burglars.
 Hints
 -----
 
--  the optimal solution uses **dynamic programming**.
+**The optimal solution uses dynamic programming.**
 
 Use the following pseudocode:
 
-1.  create an empty list that will include the best combination(s) of
-    items for each backpack size
+1.  create an empty data structure for the best combinations for each backpack size
 2.  insert an empty combination for a size 0 backpack
 3.  start with a size 1 backpack
-4.  copy the best combination for the current size from the previous
-    size, store it as ``current best``
-5.  go through all objects
+4.  store the best combination for the current size minus one as ``current best``
+5.  go through all items
 6.  create a new combination usign an item plus the best combination for
     the space remaining
 7.  if the combination is more valuable than the ``current best``,
@@ -53,6 +51,5 @@ Use the following pseudocode:
 8.  if the combination is worth the same amount, save both
 9.  increase the size of the backpack by 1
 10. repeat step 4 until you reach the desired size
-11. print the best combination for the desired size
 
 *Translated with* `www.DeepL.com <https://www.DeepL.com/Translator>`__
