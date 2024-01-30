@@ -154,6 +154,15 @@ Challenges
    challenges/metaclass.rst
    project.rst
 
+Example Programs
+----------------
+
+.. toctree::
+   :maxdepth: 1
+
+   examples/breakout.rst
+
+
 Appendix
 ---------
 
