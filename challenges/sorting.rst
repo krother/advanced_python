@@ -12,7 +12,7 @@ algorithms.
 Material
 --------
 
--  a deck of 20 playing cards per group (2-3 participants)
+-  a deck of 16 playing cards per group (2-3 participants)
 -  the pseudocode of the 4 algorithms
 -  a stopwatch
 -  paper to write down the time
@@ -30,24 +30,24 @@ Selection Sort
 ~~~~~~~~~~~~~~
 
 1. lay the cards in a row in front of you
-2. take the card with the smallest number and put it on the target pile
-3. repeat step 2 until all cards are sorted
+2. go through all the cards
+3. take the card with the smallest number and put it on the target pile
+4. repeat step 2 until all cards are sorted
 
 Insertion Sort
 ~~~~~~~~~~~~~~
 
-1. take a card from the pile and lay it out in front of you
-2. if there are already cards there, insert the new card in the correct
-   position
-3. repeat steps 1 and 2 until all cards are sorted
+1. take a new card from the pile
+2. go through the already placed cards
+3. place the new card in the the correct position
+4. repeat steps 1 and 2 until all cards are sorted
 
 Bubblesort
 ~~~~~~~~~~
 
 1. lay out all cards in a row in front of you
 2. go through the cards from left to right
-3. if there is a smaller card to the right of a larger one, swap both
-   cards
+3. if there is a smaller card to the right of a larger one, swap them
 4. repeat steps 2 and 3 until nothing changes in one pass
 
 Mergesort
@@ -59,11 +59,12 @@ Mergesort
 4. place the smaller card from one of the piles on the target pile
 5. Repeat step 4 until all cards are sorted.
 
-Optionale Goals
----------------
+Optional Goals
+--------------
 
--  repeat the exercise with a small (10) and a large (20) deck of cards
+-  repeat the exercise with a small (8) and a large (16) deck of cards
+-  count **comparison** and **swap** operations
 -  implement one of the algorithms
--  measure the runtime with ``%timeit``.
+-  measure the runtime with ``%timeit``
 
 *Translated with* `www.DeepL.com <https://www.DeepL.com/Translator>`__
