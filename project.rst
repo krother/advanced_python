@@ -28,15 +28,26 @@ Assessment Criteria
 
 - the game is working
 - there is a git repository
-- there is a README file including installation istructions
+- there is a README file including installation instructions
 - there is a ``requirements.txt`` or ``pyproject.toml`` file
 - no functions is longer than 20 lines
 - there is at least one class with 3+ attributes and 3+ methods
 - there is a class diagram, sequence diagram, state diagram or other type of design diagram
-- there are 3+ automated tests that pass
+- there are 3+ automated tests that pass and check the code of the game
 - the project uses Continuous Integration
-- Python style checks pass
-- the project is pip-installable
+- Python style checks with black pass
+- at least 3 functions contain type annotations
 - the game contains custom graphics
 - the game contains sound effects and/or music
-- great gameply (up to 2 points)
+- great gameplay (up to 2 points)
+
+.. warning::
+
+    When submitting a project as a piece of academic work, you must make sure to reference:
+
+    - sources of images, animations and music
+    - projects the code is based upon
+    - tutorials that were directly used
+    - large language models (LLMs) that were used to generate artwork or code
+
+    Failure to comply may consist a plagiarism case and may violate the rights of copyright holders.
