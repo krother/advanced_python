@@ -31,7 +31,7 @@ Assessment Criteria
 - there is a README file including installation instructions
 - there is a ``requirements.txt`` or ``pyproject.toml`` file
 - no functions is longer than 20 lines
-- there is at least one class with 3+ attributes and 3+ methods
+- there is at least one class with 3+ attributes and/or methods
 - there is a class diagram, sequence diagram, state diagram or other type of design diagram
 - there are 3+ automated tests that pass and check the code of the game
 - the project uses Continuous Integration
