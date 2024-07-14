@@ -123,14 +123,6 @@ Performance Optimization
    performance/profiling.rst
    concurrency/README.rst
 
-Refactoring
------------
-
-.. toctree::
-   :maxdepth: 1
-
-   functions/refactor_tetris.rst
-
 Challenges
 ----------
 
@@ -152,15 +144,15 @@ Challenges
    challenges/tsp.rst
    challenges/blockchain.rst
    challenges/metaclass.rst
-   project.rst
 
-Example Programs
-----------------
+Coding Project
+--------------
 
 .. toctree::
    :maxdepth: 1
 
-   examples/breakout.rst
+   project.rst
+   hall_of_fame.rst
 
 
 Appendix
