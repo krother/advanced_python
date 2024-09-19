@@ -20,16 +20,6 @@ Many times, the devil is so much in the details that it is even a bad idea.
 
 ----
 
-Alternatives
-------------
-
--  if you want to read/write data, use a database
--  if you want to scrape web pages, use the ``scrapy`` framework.
--  if you want to build a web server, use ``FastAPI`, ``Flask`` or ``Django``.
--  if you want to do number crunching, use ``Spark``, ``Dask``, ``Pytorch`` or ``Tensorflow``
-
-----
-
 When could concurrency be a good idea?
 --------------------------------------
 
@@ -49,7 +39,7 @@ Multithreading
 This is the old way to implement parallel execution.
 It has its flaws but you can grasp the basic idea:
 
-.. literalinclude:: multithreading.py
+.. literalinclude:: thread_factorial.py
 
 ----
 
@@ -59,5 +49,29 @@ Async Coroutines
 The `async` interface has been added to Python more recently.
 It fixes many problems of threads.
 
-.. literalinclude:: coroutine_asyncio.py
+.. literalinclude:: async_factorial.py
+
+----
+
+Subprocesses
+------------
+
+The `subprocess` module allows you to launch extra processes through the operating system.
+Subprocesses are not restricted to Python programs.
+This is the most flexible approach, but also has the highest overhead.
+
+.. literalinclude:: subprocess_factorial.py
+
+.. literalinclude:: factorial.py
+
+
+----
+
+Alternatives
+------------
+
+-  if you want to read/write data, use a database
+-  if you want to scrape web pages, use the ``scrapy`` framework.
+-  if you want to build a web server, use ``FastAPI`, ``Flask`` or ``Django``.
+-  if you want to do number crunching, use ``Spark``, ``Dask``, ``Pytorch`` or ``Tensorflow``
 

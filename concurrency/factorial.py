@@ -11,4 +11,4 @@ while n > 0:
 
 delay = random.randint(5, 15)
 time.sleep(delay)
-print(f"fibonacci of {sys.argv[1]} = {result} after {delay} sec")
+print(f"factorial of {sys.argv[1]} = {result} after {delay} sec")

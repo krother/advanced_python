@@ -1,5 +1,5 @@
 """
-Fibonacci with threads
+Factorial with threads
 # adopted from
 http://www.devshed.com/c/a/Python/Basic-Threading-in-Python/1/
 """
@@ -9,7 +9,7 @@ import time
 import random
 
 
-class FibonacciThread(threading.Thread):
+class FactorialThread(threading.Thread):
     def __init__(self, number):
         super().__init__()
         self.number = number
@@ -19,7 +19,7 @@ class FibonacciThread(threading.Thread):
         if n == 0:
             return 1
         else:
-            return n * FibonacciThread.fibo(n - 1)
+            return n * FactorialThread.fibo(n - 1)
 
     def run(self):
         result = self.fibo(self.number)
@@ -28,4 +28,4 @@ class FibonacciThread(threading.Thread):
 
 
 for number in range(10):
-    FibonacciThread(number).start()
+    FactorialThread(number).start()

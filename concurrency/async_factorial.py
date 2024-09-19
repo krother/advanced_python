@@ -14,7 +14,7 @@ def multiply(a, b):
 
 
 async def factorial(number):
-    """delayed calculation of fibonacci number"""
+    """delayed calculation of factorial numbers"""
     result = reduce(multiply, range(1, number + 1), 1)
     delay = random.randint(5, 20)
     await asyncio.sleep(delay)
