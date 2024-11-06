@@ -2,4 +2,5 @@ sphinx
 sphinx-design
 sphinx-copybutton
 myst-parser
-git+https://github.com/krother/academis_sphinx_theme.git
+sphinxcontrib-svg2pdfconverter[CairoSVG]
+furo
