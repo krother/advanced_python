@@ -15,14 +15,14 @@ class FactorialThread(threading.Thread):
         self.number = number
 
     @staticmethod
-    def fibo(n):
-        if n == 0:
-            return 1
-        else:
-            return n * FactorialThread.fibo(n - 1)
+    def factorial(n):
+        return (
+            1 if n == 0
+            else n * FactorialThread.factorial(n - 1)
+        )
 
     def run(self):
-        result = self.fibo(self.number)
+        result = self.factorial(self.number)
         time.sleep(random.randint(5, 20))
         print(f"{self.number}! = {result}")
 

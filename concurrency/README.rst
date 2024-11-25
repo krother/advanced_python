@@ -8,28 +8,23 @@ good reasons to be very cautious with it.
 
 ----
 
-Why is Concurrency risky?
--------------------------
+Pros and Cons of Concurrency
+----------------------------
 
-Many times, the devil is so much in the details that it is even a bad idea.
+Often concurrency is a bad idea. The devil is lurking in the details:
 
 -  Coordinating parallel sub-programs is very difficult to debug (look up the words *“race condition”* and *“heisenbug”*).
--  Starting multiple Python processes instead is really easy (e.g. from a batch script or the `multiprocessing` module).
 -  Python has a strange thing called the **GIL (Global Interpreter Lock)**. That means, Python can really only execute one command at a time.
--  There are great existing solutions for the most typical applications.
+-  There are great existing solutions for many typical applications (web scraping, web servers).
 
-----
+On the other hand, concurrency can be a good idea:
 
-When could concurrency be a good idea?
---------------------------------------
+-  if your tasks are waiting for some I/O anyway, the speed of Python does not matter.
+-  starting multiple separate Python processes is rather easy (with the `multiprocessing` module).
+-  if you are looking for a challenge.
 
-Here is one example:
-
-You are writing a computer game for fun and would like many sprites to
-move at the same time **AND** you are looking for difficult problems to solve.
-
-There are two noteworthy approaches to concurrency in Python:
-**threads** and **coroutines**.
+There are three noteworthy approaches to concurrency in Python:
+**threads**, **coroutines** and **multiple processes**.
 
 ----
 
@@ -64,14 +59,19 @@ This is the most flexible approach, but also has the highest overhead.
 
 .. literalinclude:: factorial.py
 
-
 ----
 
-Alternatives
-------------
+Challenge: Gaussian Elimination
+-------------------------------
 
--  if you want to read/write data, use a database
--  if you want to scrape web pages, use the ``scrapy`` framework.
--  if you want to build a web server, use ``FastAPI`, ``Flask`` or ``Django``.
--  if you want to do number crunching, use ``Spark``, ``Dask``, ``Pytorch`` or ``Tensorflow``
+In :download:`gauss_elim.py` you find an implementation of the `Gauss Elimination Algorithm <https://en.wikipedia.org/wiki/Gaussian_elimination>`__ to solve linear equation systems.
+The algorithm has a **cubic time complexity**.
 
+Parallelize the execution of the algorithm and check whether it gets any faster.
+
+In :download:`test_gauss_elim.py` you find unit tests for the module.
+
+.. note::
+
+   The linear equation solver is written in plain Python.
+   Of course, Numpy would also speed up the execution considerably.
