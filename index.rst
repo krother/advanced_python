@@ -73,6 +73,7 @@ Structuring Programs
 .. toctree::
    :maxdepth: 1
 
+   refactoring/README.md
    structure/main_block.rst
    structure/commandline_args.rst
    structure/modules.rst
