@@ -66,6 +66,7 @@ Shortcuts
    shortcuts/collections.rst
    shortcuts/comprehensions.rst
    shortcuts/enums.rst
+   challenges/demographics.rst
 
 Structuring Programs
 --------------------
