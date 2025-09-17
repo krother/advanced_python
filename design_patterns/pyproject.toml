@@ -1,0 +1,75 @@
+
+[tool.poetry]
+name = "dungeon_explorer"
+version = "1.1.0"
+description = "a 2D dungeon exploration game"
+authors = ["you <me@you.de>"]
+readme = "README.md"
+packages = [{include = "dungeon_explorer"}]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+numpy = "^2.1.3"
+opencv-python = "^4.10.0.84"
+pydantic = "*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.poetry.group.test]
+
+[tool.poetry.group.test.dependencies]
+pytest = "*"
+pytest-cov = "*"
+pytest-flake8 = "*"
+pre-commit = "3.7.0"
+mypy = "1.7.1"
+black = "24.8.0" 
+
+
+[project.scripts]
+dex = "dungeon_explorer.main:start_game"
+
+[project.urls]
+Homepage = "https://github.com/krother/dungeon_explorer"
+Issues = "https://github.com/krother/dungeon_explorer/issues"
+
+#[build-system]
+#requires = ["hatchling"]
+#build-backend = "hatchling.build"
+
+#[tool.hatch.build.targets.wheel]
+#packages = ["dungeon_explorer"]
+
+[tool.pytest.ini_options]
+addopts = "-v --tb=short"
+testpaths = ["dungeon_explorer", "tests"]
+flake8-max-line-length = 120
+flake8-ignore = ["E203", "E266", "E501", "W503"]
+flake8-max-complexity = 18
+
+[tool.black]
+line-length = 120
+skip-string-normalization = true
+skip-numeric-underscore-normalization = true
+exclude = "/(\\.git|build|dist)/"
+
+[tool.isort]
+src_paths = ["dungeon_explorer", "tests"]
+lines_after_imports = 2
+
+[tool.coverage.run]
+branch = true
+source = ["dungeon_explorer"]
+omit = ["*/__init__.py"]
+
+[tool.coverage.report]
+exclude_lines = ["raise NotImplementedError"]
+
