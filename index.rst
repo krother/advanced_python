@@ -80,9 +80,11 @@ Object-Oriented Programming
    classes/composition.rst
    classes/class_diagram.md
    classes/operator_overloading.rst
+   classes/properties.rst
    classes/abc.rst
    classes/decorator_class.rst
    classes/metaclasses.rst
+   classes/oop_principles.md
 
 
 Software Quality

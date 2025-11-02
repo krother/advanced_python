@@ -34,10 +34,9 @@ properties:
        def is_alive(self):
            return True
 
---------------
 
-Exercise
---------
+Exercise 1: Abstract Animals
+----------------------------
 
 Implement the Dog class so that the code below runs.
 
@@ -52,3 +51,31 @@ Implement the Dog class so that the code below runs.
    print(rex.is_alive())
    rex.make_noise()
    print(rex.species())
+
+Exercise 2: Descriptors
+------------------------
+
+The example in :download:`descriptors.py` uses the **descriptor protocol**, a mechanism to control the getting and setting of attributes using object composition. 
+
+Create both valid and invalid instances of the defined class.
+
+
+Exercise 3: Game Objects
+------------------------
+
+Create a superclass `GameObject` for the classes in your game.
+Use the following example code:
+
+.. code:: python3
+
+    from abc import ABC, abstractmethod
+
+    class Command(ABC):
+    
+        def __init__(self, name):
+            self.name = name
+
+        @abstractmethod
+        def executed(self):
+            pass
+

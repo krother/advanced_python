@@ -1,6 +1,8 @@
 Object Composition
 ==================
 
+.. figure:: composition.png
+
 Objects can be attributes of other objects.
 
 You can use this mechanism to represent relationships between objects.
@@ -12,51 +14,50 @@ Object Composition is something you use in Python all the time,
 e.g. when you have a list of integers and refer to the first item of the
 list, you are accessing an ``int`` object inside a ``list`` object.
 
-Modeling classes using Object Composition is one of the most important
-techniques in Object-Oriented-Programming. Look up the terms
-**Object-Oriented-Design** and **Design Patterns** for further reading.
-
+Many of the principles of good OOP manifest in the statement **"Prefer composition over inheritance"**.
 Here are two examples:
 
---------------
 
-Example 1: Bank
----------------
+Example 1: Galaxy
+-----------------
 
-Imagine you want to have a ``Bank`` class that represents many accounts.
+Imagine you want to have a ``Galaxy`` class that represents many planets.
 
-A very bad design solution would be:
+A very bad design would be:
 
 ::
 
-   Bank is a subclass of Account
+   Galaxy is a subclass of Planet
 
-This violates **Liskovs Substitution Principle**. A bank **is not** a
-special type of account!
+This violates **Liskovs Substitution Principle**.
+A galaxy **is not** a special type of planet!
 
 A better design solution would be:
 
 ::
 
-   A Bank contains many Accounts
+   A Galaxy contains many Planets
 
 An implementation could look like this:
 
 .. code:: python3
 
-   class Bank:
+   class Galaxy:
 
        def __init__(self):
-           self.accounts = {}
+           self.planets = {}
 
-       def add_account(self, number, accounts):
-           self.accounts[number] = account
+       def add_planet(self, planet):
+           self.planets[planet.name] = planet
 
 
-   barclays = Bank()
-   ada = Account('Ada Lovelace', 100)
-   barclays.add_account(1234, ada)
-   barclays.add_account(5555, Account('Bob', 255))
+   alpha_quadrant = Galaxy()
+   pandalor = Planet(name="Pandalor", description="home of the pandas")
+   alpha_quadrant.add_planet(pandalor)
+   alpha_quadrant.add_planet(Planet(
+       name="Sirius",
+       description="they are doing very serious business here", 
+   ))
 
 --------------
 
@@ -116,3 +117,10 @@ across all nodes in the tree.
                )
 
    print(my_tree.traverse())
+
+
+.. hint::
+
+    Modeling classes using Object Composition is one of the most important
+    techniques in Object-Oriented-Programming. Look up the terms
+    **Object-Oriented-Design** and **Design Patterns** for further reading.

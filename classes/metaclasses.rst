@@ -11,27 +11,30 @@ metaclass that instead of calling ``__init__()`` does something else.
 Valid Use Cases for changing a metaclass are:
 
 -  writing an ORM like **Django models** or **SQLAlchemy**
--  hijacking internal Python logic (e.g. like **pytest** does)
+-  hijacking internal Python logic (e.g. like **pytest** does)
 -  emulating JavaScript-like objects (the Prototype pattern)
 
 Throughout 20 years of Python programming, I have not come across a
 single situation where writing a metaclass was necessary. But it helps
 to understand Python on a deeper level.
 
+Simple Example
 --------------
 
-Example
--------
+Execute the example in :download:`metaclasses.py` and see what it does.
 
-**WARNING: This code is a complex illustrative example that might drive
-you nuts!**
+Complex Example
+---------------
+
+Here is a complex example for illustrative purposes.
+The code might drive you nuts, so consider yourself warned!
 
 1. run the code
 2. admire what is happening
 3. try to understand what is happening
 4. return to 1
 
-Here is the code
+Here is the code:
 
 .. code:: python3
 
@@ -63,13 +66,11 @@ Here is the code
    monkeys = CrazyMonkeys(3)  # calls __new__
    print(monkeys)             # see what happens!
 
---------------
 
-Final Warning
--------------
+.. warning::
 
-Don't try using metaclasses at work, unless
+   Don't try using metaclasses at work, unless
 
--  you have excluded all alternatives
--  you really know what you are doing
--  you have talked to a developer more experienced than you
+   -  you have excluded all alternatives
+   -  you really know what you are doing
+   -  you have talked to an experienced developer

@@ -1,10 +1,10 @@
 Operator Overloading
 ====================
 
-In Python, classes can have **many** ``__magic_methods__()`` – those
-that start and end with a double underscore. All ``__magic_methods__()``
-have a special function and should never be called directly. Most of
-them directly map to Python operators. Here are some examples:
+Python has a long list of special **double-underscore methods** ("dunder methods" or  ``__magic_methods__()``).
+All these ``__magic_methods__()`` have a special function and should never be called directly. 
+Most of them directly map to Python operators or builtin functions.
+Here are some examples:
 
 ============== =================================================
 method         description
@@ -18,112 +18,103 @@ method         description
 ``__hash__()`` called when using the object as a dictionary key
 ============== =================================================
 
-It is often questionable, whether overloading operators is a good idea.
-Many times it is not, because it obscures what is happening behind the
-scenes.
+Common use cases
+----------------
 
-Compare the clarity of:
+I recommend using operator overloading sparingly.
+Most of the time, a regular method is easier to read.
+Below you find a few examples that I have found useful:
+
+* making objects printable with `__repr__()`  and `__str__()`
+* checking equality with `__eq__()`
+* making objects sortable with `__lt__()` (less than) or `__gt__()`
+
+
+Making classes printable
+------------------------
+
+One disadvantage of classes is that when you print an object, you will
+see something like this:
+
+::
+
+   <__main__.MyClass at 0x7f64519d8438>
+
+A good workaround is to add a special method, ``__repr__(self)`` to the
+class that returns a string. This method will be called every time a
+string representation is needed: when printing and object, when an
+object appears inside a list or in error messages.
+
+Typically, you would build a short string in ``__repr__(self)`` that
+describes the object:
 
 .. code:: python3
 
-   a = vec1 * vec2
-   b = vec1 @ vec2
+       def __repr__(self):
+           return f"<account of '{self.name}' with {self.balance} galactic credits>"
+
+With this method defined, the instruction
+
+.. code:: python3
+
+   print(a)
+
+Gives a clean summary of the instance.
+It is a good idea to implement ``__repr__(self)`` as the first method in any new class.
+
+
+Sortable Objects
+----------------
+
+The method ``__lt__(self, other)`` is implicitly called when comparing
+two objects, as done by any sorting algorithm.
+
+.. literalinclude:: sortable_objects.py
+
+
+Hashable Vectors
+----------------
+
+This is a 2D vector class I used for screen positions in a game.
+I wanted the vectors to be capable of simple arithmetics. They also needed
+to be hashable (which NumPy arrays are not).
+
+.. literalinclude:: vector.py
+
+
+Dynamic Attributes
+------------------
+
+The special methods `__getattr__` and `__setattr__` allow you to intercept the process of attribute access. They work like a more generic **property**. You can use them to retrieve attributes from elsewhere or to generate them on-the-fly. However, since methods use the same mechanism you will always want to call the inherited method.
+
+Execute the example in :download:`getattr_setattr.py`.
+
+Slots
+-----
+
+The `__slots__` attribute is a mechanism to define the available attributes more strictly.
+This mechanism is used by **dataclasses** and **pydantic** with a more comfortable interface.
+
+Run the example in :download:`slots.py`. 
+Remove the comment and run the code again.
+
+
+Caveats
+-------
+
+It is often questionable, whether overloading operators is a good idea.
+Many times it is not, because it obscures what is happening behind the scenes.
+
+Compare the clarity of e.g. multiplying matrices with:
+
+.. code:: python3
+
+   T = M1 @ M2
 
 versus
 
 .. code:: python3
 
-   a = vec1.dot_product(vec2)
-   b = vec1.scalar_product(vec2)
+   T = np.matmul(M1, M2)
 
-Below you find two examples that I have found useful:
-
---------------
-
-Sortable Objects
-----------------
-
-The method ``__gt__(self, other)`` is implicitly called when comparing
-two objects, as done by any sorting algorithm.
-
-.. code:: python3
-
-   class Elephant:
-       """Elephants that sort themselves by trunk size"""
-       def __init__(self, name, trunk_size):
-           self.name = name
-           self.trunk_size = trunk_size
-
-       def __repr__(self):
-           return f"<{self.name} [trunk {self.trunk_size}]>"
-
-       def __gt__(self, other):
-           return self.trunk_size < other.trunk_size
-
-   elephants = [
-       Elephant('mama', 5),
-       Elephant('baby', 1),
-       Elephant('grandma', 7),
-       Elephant('daddy', 6),
-       Elephant('son', 3),
-   ]
-
-   from pprint import pprint
-
-   pprint(elephants)
-
-   print("\nAnd now the biggest elephants go first:")
-   elephants.sort()
-
-   pprint(elephants)
-
---------------
-
-Hashable Vectors
-----------------
-
-This is a 2D vector class I used for screen positions in a game. I
-wanted the vectors to be capable of simple arithmetics. They also needed
-to be hashable (which NumPy arrays are not).
-
-.. code:: python3
-
-   class Vector:
-
-       def __init__(self, x, y):
-           self.x = x
-           self.y = y
-
-       def __add__(self, other):
-           x = self.x + other.x
-           y = self.y + other.y
-           return Vector(x, y)
-
-       def __sub__(self, other):
-           x = self.x - other.x
-           y = self.y - other.y
-           return Vector(x, y)
-
-       def __mul__(self, n):
-           '''scalar multiplication'''
-           # considered unclean - for illustration only
-           x = self.x * n
-           y = self.y * n
-           return Vector(x, y)
-
-       def __hash__(self):
-           return str(self).__hash__()
-
-       def __repr__(self):
-           return f'[{self.x};{self.y}]'
-
-
-   UP = Vector(0, -1)
-   LEFT = Vector(-1, 0)
-   UPLEFT = UP + LEFT
-   FAST_UP = UP * 3
-
-   messages = {
-     UP: 'moving up',
-     LEFT: 'moving left',
-   }
+My personal opinion is that, with few exceptions, operator operator_overloading should be used sparingly.
