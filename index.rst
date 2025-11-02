@@ -15,15 +15,13 @@ piece of software is more complex. You are facing questions like:
 Below you find development tools and techniques that help you to write
 programs that get the job done and don’t fall apart.
 
-Developing Software
--------------------
+Getting Started
+---------------
 
 .. toctree::
    :maxdepth: 1
 
-   software_engineering/README.rst
-   software_engineering/prototype.rst
-   software_engineering/code_review.rst
+   debugging/README.rst
 
 Setting up a Python Project
 ---------------------------
@@ -34,15 +32,6 @@ Setting up a Python Project
    getting_started/virtualenv.rst
    getting_started/git_repo.rst
    getting_started/structure.rst
-
-Writing Automated Tests
------------------------
-
-.. toctree::
-   :maxdepth: 1
-
-   testing/facade.rst
-   testing/unit_test.rst
 
 Functions
 ---------
@@ -95,14 +84,17 @@ Object-Oriented Programming
    classes/decorator_class.rst
    classes/metaclasses.rst
 
+
 Software Quality
 ----------------
 
 .. toctree::
    :maxdepth: 1
 
+   testing/unit_test.rst
    quality/continuous_integration.rst
    quality/
+   testing/facade.rst
 
 Error Handling
 --------------
@@ -124,6 +116,16 @@ Performance Optimization
 
    performance/profiling.rst
    concurrency/README.rst
+
+Developing Software
+-------------------
+
+.. toctree::
+   :maxdepth: 1
+
+   software_engineering/README.rst
+   software_engineering/prototype.rst
+   software_engineering/code_review.rst
 
 Challenges
 ----------
