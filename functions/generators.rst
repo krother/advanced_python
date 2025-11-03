@@ -1,6 +1,8 @@
 Generators
 ==========
 
+.. figure:: generators.png
+
 Generators are *lazy* functions. They produce results like normal
 Python functions, but only when they are needed. The main purpose of
 using generators is to save memory and calculation time when processing
@@ -130,3 +132,19 @@ The ``iter()`` function creates a generator from any iterable:
    gen = iter("Hello World")
    print(next(gen))  # -> 'H'
    print(next(gen))  # -> 'e'
+
+
+Exercise: Ticker
+----------------
+
+Run the code in :download:`ticker.py`.
+Understand what it does.
+
+Use the ticker in the main loop of the Pac game to slow down the movement.
+Follow these steps:
+
+- place the ticker function in the code
+- create a new ticker with a delta of 0.1 before the `while` loop.
+- inside the loop, use `next()` to retrieve the next value from the ticker.
+- move the pac only if the tick value is `True`
+- experiment with the 
