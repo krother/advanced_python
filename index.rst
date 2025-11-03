@@ -93,9 +93,9 @@ Software Quality
 .. toctree::
    :maxdepth: 1
 
+   quality/code_checks.rst
    testing/unit_test.rst
    quality/continuous_integration.rst
-   quality/
    testing/facade.rst
 
 Error Handling
