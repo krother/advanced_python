@@ -1,0 +1,74 @@
+
+[project]
+name = "Pac"
+version = "1.0.0"
+authors = [
+  { name="Kristian Rother", email="kristian.rother@posteo.de" },
+]
+description = "a dot-chomping 2D game"
+readme = "README.md"
+requires-python = ">=3.12"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+dependencies = [
+    "opencv-python",
+    "pydantic==2.6.4",
+]
+
+[dependency-groups]
+dev = [
+    "pylint==2.15.4",
+    "pytest",
+    "pytest-cov",
+    "pytest-flake8",
+    "faker",
+    "mypy==1.7.1",
+    "black==24.8.0",
+    "isort==5.13.2",
+    "flake8==7.0.0",
+    "flake8-isort==6.1.1",
+]
+
+[project.scripts]
+pacm = "pac.pac_game:main"
+
+[project.urls]
+Homepage = "https://www.academis.eu"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.uv]
+prerelease = "allow"
+
+[tool.hatch.build.targets.wheel]
+packages = ["pac"]
+
+[tool.pytest.ini_options]
+addopts = "-v --tb=short"
+testpaths = ["pac", "tests"]
+flake8-max-line-length = 79
+flake8-ignore = ["E203", "E266", "E501", "W503"]
+flake8-max-complexity = 18
+
+[tool.black]
+line-length = 79
+skip-string-normalization = true
+exclude = "/(\\.git|build|dist|.venv)/"
+
+[tool.isort]
+src_paths = ["pac", "tests"]
+lines_after_imports = 2
+
+[tool.coverage.run]
+branch = true
+source = ["pac"]
+omit = ["*/__init__.py"]
+
+[tool.coverage.report]
+exclude_lines = ["raise NotImplementedError"]

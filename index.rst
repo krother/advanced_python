@@ -29,7 +29,7 @@ Setting up a Python Project
 .. toctree::
    :maxdepth: 1
 
-   getting_started/virtualenv.rst
+   python_package/README.rst
    getting_started/git_repo.rst
    getting_started/structure.rst
 
@@ -94,10 +94,9 @@ Software Quality
    :maxdepth: 1
 
    quality/code_checks.rst
-   testing/unit_test.rst
+   testing/README.rst
    quality/continuous_integration.rst
-   testing/facade.rst
-
+   
 Error Handling
 --------------
 

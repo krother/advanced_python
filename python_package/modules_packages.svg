@@ -1,0 +1,647 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="297mm"
+   height="210mm"
+   viewBox="0 0 297 210"
+   version="1.1"
+   id="svg5076"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
+   sodipodi:docname="modules_packages_DE.svg"
+   inkscape:export-filename="/home/kristian/Desktop/python_advanced_april/python_packages/modules_packages.png"
+   inkscape:export-xdpi="100.02762"
+   inkscape:export-ydpi="100.02762">
+  <defs
+     id="defs5070">
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible;"
+       id="marker2177"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mend">
+      <path
+         transform="scale(0.4) rotate(180) translate(10,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path2175" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow2Lend"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path1219"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         transform="scale(1.1) rotate(180) translate(1,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Lend"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path1201"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker5091"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="DotM">
+      <path
+         transform="scale(0.4) translate(7.4, 1)"
+         style="fill-rule:evenodd;stroke:#999999;stroke-width:1pt;stroke-opacity:1;fill:#999999;fill-opacity:1"
+         d="M -2.5,-1.0 C -2.5,1.7600000 -4.7400000,4.0 -7.5,4.0 C -10.260000,4.0 -12.5,1.7600000 -12.5,-1.0 C -12.5,-3.7600000 -10.260000,-6.0 -7.5,-6.0 C -4.7400000,-6.0 -2.5,-3.7600000 -2.5,-1.0 z "
+         id="path5089" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker4799"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="DotM">
+      <path
+         transform="scale(0.4) translate(7.4, 1)"
+         style="fill-rule:evenodd;stroke:#999999;stroke-width:1pt;stroke-opacity:1;fill:#999999;fill-opacity:1"
+         d="M -2.5,-1.0 C -2.5,1.7600000 -4.7400000,4.0 -7.5,4.0 C -10.260000,4.0 -12.5,1.7600000 -12.5,-1.0 C -12.5,-3.7600000 -10.260000,-6.0 -7.5,-6.0 C -4.7400000,-6.0 -2.5,-3.7600000 -2.5,-1.0 z "
+         id="path4797" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker4489"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="DotM">
+      <path
+         transform="scale(0.4) translate(7.4, 1)"
+         style="fill-rule:evenodd;stroke:#999999;stroke-width:1pt;stroke-opacity:1;fill:#999999;fill-opacity:1"
+         d="M -2.5,-1.0 C -2.5,1.7600000 -4.7400000,4.0 -7.5,4.0 C -10.260000,4.0 -12.5,1.7600000 -12.5,-1.0 C -12.5,-3.7600000 -10.260000,-6.0 -7.5,-6.0 C -4.7400000,-6.0 -2.5,-3.7600000 -2.5,-1.0 z "
+         id="path4487" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker4191"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="DotM">
+      <path
+         transform="scale(0.4) translate(7.4, 1)"
+         style="fill-rule:evenodd;stroke:#999999;stroke-width:1pt;stroke-opacity:1;fill:#999999;fill-opacity:1"
+         d="M -2.5,-1.0 C -2.5,1.7600000 -4.7400000,4.0 -7.5,4.0 C -10.260000,4.0 -12.5,1.7600000 -12.5,-1.0 C -12.5,-3.7600000 -10.260000,-6.0 -7.5,-6.0 C -4.7400000,-6.0 -2.5,-3.7600000 -2.5,-1.0 z "
+         id="path4189" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker3989"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="DotM">
+      <path
+         transform="scale(0.4) translate(7.4, 1)"
+         style="fill-rule:evenodd;stroke:#999999;stroke-width:1pt;stroke-opacity:1;fill:#999999;fill-opacity:1"
+         d="M -2.5,-1.0 C -2.5,1.7600000 -4.7400000,4.0 -7.5,4.0 C -10.260000,4.0 -12.5,1.7600000 -12.5,-1.0 C -12.5,-3.7600000 -10.260000,-6.0 -7.5,-6.0 C -4.7400000,-6.0 -2.5,-3.7600000 -2.5,-1.0 z "
+         id="path3987" />
+    </marker>
+    <marker
+       inkscape:stockid="DotL"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="DotL"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path1039"
+         d="M -2.5,-1.0 C -2.5,1.7600000 -4.7400000,4.0 -7.5,4.0 C -10.260000,4.0 -12.5,1.7600000 -12.5,-1.0 C -12.5,-3.7600000 -10.260000,-6.0 -7.5,-6.0 C -4.7400000,-6.0 -2.5,-3.7600000 -2.5,-1.0 z "
+         style="fill-rule:evenodd;stroke:#999999;stroke-width:1pt;stroke-opacity:1;fill:#999999;fill-opacity:1"
+         transform="scale(0.8) translate(7.4, 1)" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="1"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.49497475"
+     inkscape:cx="410.52019"
+     inkscape:cy="230.04357"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1608"
+     inkscape:window-height="986"
+     inkscape:window-x="72"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     showguides="false"
+     inkscape:object-nodes="true" />
+  <metadata
+     id="metadata5073">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-87)">
+    <text
+       id="text97"
+       y="199.48215"
+       x="40.821426"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       xml:space="preserve"><tspan
+         style="stroke-width:0.26458332"
+         y="208.84592"
+         x="40.821426"
+         id="tspan95"
+         sodipodi:role="line" /></text>
+    <text
+       id="text101"
+       y="184.1741"
+       x="53.294643"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       xml:space="preserve"><tspan
+         style="stroke-width:0.26458332"
+         y="193.53787"
+         x="53.294643"
+         id="tspan99"
+         sodipodi:role="line" /></text>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot9532"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       transform="matrix(0.26458333,0,0,0.26458333,142.25005,96.071428)"><flowRegion
+         id="flowRegion9534"><rect
+           id="rect9536"
+           width="950"
+           height="171.42857"
+           x="101.42857"
+           y="-2.0134804" /></flowRegion><flowPara
+         id="flowPara9538"
+         style="font-weight:bold">Modules &amp; Packages</flowPara></flowRoot>    <g
+       id="g2060"
+       transform="rotate(90,141.60366,148.71657)" />
+    <flowRoot
+       transform="matrix(0.26458333,0,0,0.26458333,157.79448,-49.21228)"
+       style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       id="flowRoot2605"
+       xml:space="preserve"><flowRegion
+         id="flowRegion2601"><rect
+           y="599.4151"
+           x="43.571426"
+           height="65.134811"
+           width="442.12723"
+           id="rect2599" /></flowRegion><flowPara
+         style="font-style:normal;font-size:16px"
+         id="flowPara2603">Python code is structured on multiple levels.</flowPara><flowPara
+         style="font-style:normal;font-size:16px"
+         id="flowPara155">Each structural level is fully <flowSpan
+   style="font-weight:bold"
+   id="flowSpan158">optional</flowSpan>.</flowPara></flowRoot>    <g
+       id="g1523">
+      <rect
+         y="97.624237"
+         x="7.0331917"
+         height="174.21611"
+         width="149.38939"
+         id="rect1302"
+         style="fill:#f9f9f9;stroke:#000000;stroke-width:0.6192171;stroke-miterlimit:4;stroke-dasharray:none" />
+      <rect
+         style="fill:#f2f2f2;stroke:#000000;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none"
+         id="rect1253"
+         width="130.6098"
+         height="129.92313"
+         x="16.422985"
+         y="104.93517" />
+      <rect
+         y="112.60862"
+         x="26.269791"
+         height="84.14917"
+         width="110.91618"
+         id="rect1206"
+         style="fill:#e6e6e6;stroke:#000000;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none" />
+      <g
+         transform="translate(0,-8.438659)"
+         id="g1251">
+        <rect
+           y="128.74118"
+           x="34.760677"
+           height="37.34351"
+           width="93.93441"
+           id="rect344"
+           style="fill:#cccccc;stroke:#000000;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none" />
+      </g>
+      <g
+         transform="translate(32.644131,-40.231363)"
+         id="g2567">
+        <flowRoot
+           transform="matrix(0.26458333,0,0,0.26458333,-0.14124892,111.94643)"
+           style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+           id="flowRoot2557"
+           xml:space="preserve"><flowRegion
+             id="flowRegion2553"><rect
+               y="196.55795"
+               x="34.285713"
+               height="128.57143"
+               width="440"
+               id="rect2551" /></flowRegion><flowPara
+             style="font-weight:bold;font-size:26.66666794px"
+             id="flowPara2555">function</flowPara></flowRoot>        <flowRoot
+           transform="matrix(0.26458333,0,0,0.26458333,-2.3352579,17.546876)"
+           style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+           id="flowRoot2565"
+           xml:space="preserve"><flowRegion
+             id="flowRegion2561"><rect
+               y="599.4151"
+               x="43.571426"
+               height="68.643234"
+               width="319.44162"
+               id="rect2559" /></flowRegion><flowPara
+             id="flowPara1203"
+             style="font-size:16px">Callable sub-program with clearly defined input and output. </flowPara><flowPara
+             style="font-size:16px"
+             id="flowPara177">Created with <flowSpan
+   id="flowSpan1201"
+   style="font-weight:bold">def</flowSpan></flowPara></flowRoot>        <text
+           id="text1191"
+           y="191.39835"
+           x="65.440689"
+           style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+           xml:space="preserve"><tspan
+             style="stroke-width:0.26458332"
+             y="200.76212"
+             x="65.440689"
+             id="tspan1189"
+             sodipodi:role="line" /></text>
+      </g>
+      <g
+         id="g1236"
+         transform="translate(32.749551,-1.86678)">
+        <flowRoot
+           xml:space="preserve"
+           id="flowRoot1218"
+           style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+           transform="matrix(0.26458333,0,0,0.26458333,-0.14124892,111.94643)"><flowRegion
+             id="flowRegion1214"><rect
+               id="rect1212"
+               width="440"
+               height="128.57143"
+               x="34.285713"
+               y="196.55795" /></flowRegion><flowPara
+             id="flowPara1216"
+             style="font-weight:bold;font-size:26.66666794px">class</flowPara></flowRoot>        <flowRoot
+           xml:space="preserve"
+           id="flowRoot1230"
+           style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+           transform="matrix(0.26458333,0,0,0.26458333,-2.3352579,17.546876)"><flowRegion
+             id="flowRegion1222"><rect
+               id="rect1220"
+               width="327.52289"
+               height="92.381813"
+               x="43.571426"
+               y="599.4151" /></flowRegion><flowPara
+             style="font-size:16px"
+             id="flowPara1228">Bundles data (attributes) and or functionality (methods) to one logical unit. Defined with <flowSpan
+   id="flowSpan1248"
+   style="font-weight:bold">class</flowSpan></flowPara></flowRoot>        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+           x="65.440689"
+           y="191.39835"
+           id="text1234"><tspan
+             sodipodi:role="line"
+             id="tspan1232"
+             x="65.440689"
+             y="200.76212"
+             style="stroke-width:0.26458332" /></text>
+      </g>
+      <g
+         transform="translate(32.749551,36.497804)"
+         id="g1279">
+        <flowRoot
+           transform="matrix(0.26458333,0,0,0.26458333,-0.14124892,111.94643)"
+           style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+           id="flowRoot1261"
+           xml:space="preserve"><flowRegion
+             id="flowRegion1257"><rect
+               y="196.55795"
+               x="34.285713"
+               height="128.57143"
+               width="440"
+               id="rect1255" /></flowRegion><flowPara
+             style="font-weight:bold;font-size:26.66666794px"
+             id="flowPara1259">module</flowPara></flowRoot>        <flowRoot
+           transform="matrix(0.26458333,0,0,0.26458333,-2.3352579,17.546876)"
+           style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+           id="flowRoot1273"
+           xml:space="preserve"><flowRegion
+             id="flowRegion1265"><rect
+               y="599.4151"
+               x="43.571426"
+               height="92.381813"
+               width="327.52289"
+               id="rect1263" /></flowRegion><flowPara
+             id="flowPara1271"
+             style="font-size:16px">A file ending with <flowSpan
+   id="flowSpan1283"
+   style="font-weight:bold">.py </flowSpan>.</flowPara><flowPara
+             id="flowPara1293"
+             style="font-size:16px">Exists at runtime as a <flowSpan
+   id="flowSpan1296"
+   style="font-style:italic;font-weight:normal">Singleton</flowSpan>. </flowPara><flowPara
+             style="font-size:16px"
+             id="flowPara166">Used with <flowSpan
+   style="font-weight:bold"
+   id="flowSpan1269">import</flowSpan></flowPara></flowRoot>        <text
+           id="text1277"
+           y="191.39835"
+           x="65.440689"
+           style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+           xml:space="preserve"><tspan
+             style="stroke-width:0.26458332"
+             y="200.76212"
+             x="65.440689"
+             id="tspan1275"
+             sodipodi:role="line" /></text>
+      </g>
+      <flowRoot
+         transform="matrix(0.26458333,0,0,0.26458333,32.608302,185.29691)"
+         style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         id="flowRoot1310"
+         xml:space="preserve"><flowRegion
+           id="flowRegion1306"><rect
+             y="196.55795"
+             x="34.285713"
+             height="128.57143"
+             width="440"
+             id="rect1304" /></flowRegion><flowPara
+           style="font-weight:bold;font-size:26.66666794px"
+           id="flowPara1308">package</flowPara></flowRoot>      <flowRoot
+         transform="matrix(0.26458333,0,0,0.26458333,30.414293,90.897359)"
+         style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         id="flowRoot1326"
+         xml:space="preserve"><flowRegion
+           id="flowRegion1314"><rect
+             y="599.4151"
+             x="43.571426"
+             height="69.524696"
+             width="328.23715"
+             id="rect1312" /></flowRegion><flowPara
+           id="flowPara1324"
+           style="font-size:16px">A folder containing at least one module. May contain <flowSpan
+   style="font-weight:bold"
+   id="flowSpan1334">__init__.py</flowSpan> . Used with <flowSpan
+   style="font-weight:bold"
+   id="flowSpan1322">import</flowSpan></flowPara></flowRoot>    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="98.190239"
+       y="284.52676"
+       id="text1330"><tspan
+         sodipodi:role="line"
+         id="tspan1328"
+         x="98.190239"
+         y="293.89053"
+         style="stroke-width:0.26458332" /></text>
+    <g
+       id="g1679"
+       transform="translate(0,9.4940873)">
+      <rect
+         y="132.8965"
+         x="167.17709"
+         height="129.75937"
+         width="114.16207"
+         id="rect344-3"
+         style="fill:#e6e6e6;stroke:none;stroke-width:0.86837399;stroke-miterlimit:4;stroke-dasharray:none" />
+      <flowRoot
+         xml:space="preserve"
+         id="flowRoot9570"
+         style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         transform="matrix(0.26458333,0,0,0.26458333,170.82784,86.648395)"><flowRegion
+           id="flowRegion9566"><rect
+             id="rect9564"
+             width="440"
+             height="128.57143"
+             x="34.285713"
+             y="196.55795" /></flowRegion><flowPara
+           id="flowPara9568"
+           style="font-weight:bold;font-size:26.66666794px">Size and structure</flowPara></flowRoot>      <g
+         id="g1597">
+        <flowRoot
+           transform="matrix(0.26458333,0,0,0.26458333,190.8972,0.307631)"
+           style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+           id="flowRoot85"
+           xml:space="preserve"><flowRegion
+             id="flowRegion81"><rect
+               y="599.4151"
+               x="43.571426"
+               height="47.857143"
+               width="229.28572"
+               id="rect79" /></flowRegion><flowPara
+             style="font-style:italic;font-size:16px"
+             id="flowPara83">Below 100 lines of code no structure is needed</flowPara></flowRoot>        <g
+           id="g266"
+           transform="translate(169.58252,-69.710224)">
+          <circle
+             r="7.0870533"
+             cy="233.42648"
+             cx="18.42634"
+             id="path247"
+             style="fill:#aaccff;stroke:#000000;stroke-width:0.75;stroke-miterlimit:4;stroke-dasharray:none" />
+          <flowRoot
+             transform="matrix(0.26458333,0,0,0.26458333,6.7568165,174.59598)"
+             style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+             id="flowRoot259"
+             xml:space="preserve"><flowRegion
+               id="flowRegion255"><rect
+                 y="196.55795"
+                 x="34.285713"
+                 height="128.57143"
+                 width="440"
+                 id="rect253" /></flowRegion><flowPara
+               style="font-weight:bold;font-size:26.66666794px"
+               id="flowPara257">1</flowPara></flowRoot>        </g>
+      </g>
+      <flowRoot
+         transform="matrix(0.26458333,0,0,0.26458333,190.8972,18.576105)"
+         style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         id="flowRoot1571"
+         xml:space="preserve"><flowRegion
+           id="flowRegion1567"><rect
+             y="599.4151"
+             x="43.571426"
+             height="65.029709"
+             width="232.82126"
+             id="rect1565" /></flowRegion><flowPara
+           style="font-style:italic;font-size:16px"
+           id="flowPara1569">up to 500 lines can be structured with simple functions</flowPara></flowRoot>      <g
+         id="g290"
+         transform="translate(169.58252,-27.881589)">
+        <circle
+           style="fill:#ffaaee;stroke:#000000;stroke-width:0.75;stroke-miterlimit:4;stroke-dasharray:none"
+           id="circle280"
+           cx="18.42634"
+           cy="233.42648"
+           r="7.0870533" />
+        <flowRoot
+           xml:space="preserve"
+           id="flowRoot288"
+           style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+           transform="matrix(0.26458333,0,0,0.26458333,6.7568165,174.59598)"><flowRegion
+             id="flowRegion284"><rect
+               id="rect282"
+               width="440"
+               height="128.57143"
+               x="34.285713"
+               y="196.55795" /></flowRegion><flowPara
+             id="flowPara286"
+             style="font-weight:bold;font-size:26.66666794px">3</flowPara></flowRoot>      </g>
+      <g
+         transform="translate(169.58252,-48.795917)"
+         id="g278">
+        <circle
+           r="7.0870533"
+           cy="233.42648"
+           cx="18.42634"
+           id="circle268"
+           style="fill:#ccaaff;stroke:#000000;stroke-width:0.75;stroke-miterlimit:4;stroke-dasharray:none" />
+        <flowRoot
+           transform="matrix(0.26458333,0,0,0.26458333,6.7568165,174.59598)"
+           style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+           id="flowRoot276"
+           xml:space="preserve"><flowRegion
+             id="flowRegion272"><rect
+               y="196.55795"
+               x="34.285713"
+               height="128.57143"
+               width="440"
+               id="rect270" /></flowRegion><flowPara
+             style="font-weight:bold;font-size:26.66666794px"
+             id="flowPara274">2</flowPara></flowRoot>      </g>
+      <g
+         transform="translate(169.58252,-6.9672829)"
+         id="g1551">
+        <circle
+           r="7.0870533"
+           cy="233.42648"
+           cx="18.42634"
+           id="circle1541"
+           style="fill:#ff8080;stroke:#000000;stroke-width:0.75;stroke-miterlimit:4;stroke-dasharray:none" />
+        <flowRoot
+           transform="matrix(0.26458333,0,0,0.26458333,6.7568165,174.59598)"
+           style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+           id="flowRoot1549"
+           xml:space="preserve"><flowRegion
+             id="flowRegion1545"><rect
+               y="196.55795"
+               x="34.285713"
+               height="128.57143"
+               width="440"
+               id="rect1543" /></flowRegion><flowPara
+             style="font-weight:bold;font-size:26.66666794px"
+             id="flowPara1547">4</flowPara></flowRoot>      </g>
+      <g
+         id="g1563"
+         transform="translate(169.58252,13.947038)">
+        <circle
+           style="fill:#ff5555;stroke:#000000;stroke-width:0.75;stroke-miterlimit:4;stroke-dasharray:none"
+           id="circle1553"
+           cx="18.42634"
+           cy="233.42648"
+           r="7.0870533" />
+        <flowRoot
+           xml:space="preserve"
+           id="flowRoot1561"
+           style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+           transform="matrix(0.26458333,0,0,0.26458333,6.7568165,174.59598)"><flowRegion
+             id="flowRegion1557"><rect
+               id="rect1555"
+               width="440"
+               height="128.57143"
+               x="34.285713"
+               y="196.55795" /></flowRegion><flowPara
+             id="flowPara1559"
+             style="font-weight:bold;font-size:26.66666794px">5</flowPara></flowRoot>      </g>
+      <flowRoot
+         xml:space="preserve"
+         id="flowRoot1605"
+         style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         transform="matrix(0.26458333,0,0,0.26458333,190.8972,41.725955)"><flowRegion
+           id="flowRegion1601"><rect
+             id="rect1599"
+             width="232.82126"
+             height="65.029709"
+             x="43.571426"
+             y="599.4151" /></flowRegion><flowPara
+           id="flowPara1603"
+           style="font-style:italic;font-size:16px">up to 1000 lines can be split into modules</flowPara></flowRoot>      <flowRoot
+         transform="matrix(0.26458333,0,0,0.26458333,190.8972,63.050572)"
+         style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         id="flowRoot1613"
+         xml:space="preserve"><flowRegion
+           id="flowRegion1609"><rect
+             y="599.4151"
+             x="43.571426"
+             height="50.382511"
+             width="261.61063"
+             id="rect1607" /></flowRegion><flowPara
+           style="font-style:italic;font-size:16px"
+           id="flowPara1611">more than 1000 should</flowPara><flowPara
+           style="font-style:italic;font-size:16px"
+           id="flowPara160">use classes</flowPara></flowRoot>      <flowRoot
+         xml:space="preserve"
+         id="flowRoot1621"
+         style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         transform="matrix(0.26458333,0,0,0.26458333,190.8972,83.964893)"><flowRegion
+           id="flowRegion1617"><rect
+             id="rect1615"
+             width="261.61063"
+             height="50.382511"
+             x="43.571426"
+             y="599.4151" /></flowRegion><flowPara
+           id="flowPara1619"
+           style="font-style:italic;font-size:16px">with 10000+ lines there should be a clear package structure</flowPara></flowRoot>    </g>
+  </g>
+</svg>
