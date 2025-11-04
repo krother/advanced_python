@@ -35,12 +35,7 @@ Iterate a few times.
 Exercise 3: Tests for the Space Game
 ------------------------------------
 
-Run the tests for the space game.
-
-Exercise 4: Test options
-------------------------
-
-Run the tests with the following command:
+Run the tests for the space game with the following command:
 
 ::
 
@@ -49,7 +44,7 @@ Run the tests with the following command:
 Explain the options.
 
 
-Exercise 5: Mocking
+Exercise 4: Mocking
 -------------------
 
 Also compare the code in :download:`mock_example.py`

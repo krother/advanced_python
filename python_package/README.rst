@@ -2,6 +2,7 @@
 Building a Python Package
 =========================
 
+
 In this exercise, you will use  `uv <https://docs.astral.sh/uv/>`__ to create a package structure for the space game.
 **uv** is a modern tool for managing virtual environments written in rust. It works similar to **pipenv** and **poetry** but is 100x faster when resolving dependencies.
 
@@ -26,7 +27,7 @@ Exercise 2: Create environment
 Create a project folder and execute the commands
 
 ::
-    
+
     uv python install 3.12
     uv init
 
