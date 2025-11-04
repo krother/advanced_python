@@ -25,6 +25,8 @@ Exercise 2: Create environment
 
 Create a project folder and execute the commands
 
+::
+    
     uv python install 3.12
     uv init
 
@@ -94,5 +96,5 @@ You should find the release files in the `dist/` folder.
 If you want to release the sources only, use:
 
 ::
-    
+
     uv build --sdist
