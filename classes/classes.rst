@@ -24,7 +24,7 @@ Defining a class
 
 To define a class, you need to define three things:
 
--  give the class a name (in ``SnakeCase``)
+-  give the class a name in ``CamelCase``)
 -  define attributes (variables that belong to the class)
 -  define methods (functions that belong to the class)
 
@@ -43,12 +43,12 @@ Creating Objects
 ----------------
 
 To use a class, you need to create an object from it first. Objects are
-*“live versions”* of a class, the class being an idealized abstration
+*“live versions”* of a class, the class being an idealized abstraction
 (in the sense of `Platos Theory of Forms <https://en.wikipedia.org/wiki/Theory_of_forms>`__).
 If you think of **Planet** as a class, the actual planets **Earth** and **Pandalor**
 would be the objects of that class.
 
-You can create multiple objects from a class, and each objects has its
+You can create multiple objects from a class, and each object has its
 own, independent attributes. Syntactically, you can think of a class as a function that returns
 objects. (This is a gross oversimplification to what textbooks on
 classes say, but in Python it is more or less what happens).

@@ -11,6 +11,6 @@ The Live Website is available at [http://www.academis.eu/advanced_python](http:/
 
 ## License
 
-© 2018 Dr. Kristian Rother (krother@academis.eu)
+© 2026 Dr. Kristian Rother (krother@academis.eu)
 
 The code is distributed under the conditions of the MIT License.

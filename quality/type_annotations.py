@@ -22,6 +22,5 @@ PRICES: FruitPrices = {
 def calc_total_price(basket: Basket, prices: FruitPrices) -> float:
     ...
 
-
 basket = {"apple", "cantaloupe"}
 print(calc_total_price(...))

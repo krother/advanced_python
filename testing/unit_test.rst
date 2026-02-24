@@ -15,7 +15,7 @@ Make sure pytest is installed:
 Step 2: Create a test
 ---------------------
 
-Create a file ``test_game_logic.py``. In it, you need the folowing code:
+Create a file ``test_game_logic.py``. In it, you need the following code:
 
 .. code:: python3
 

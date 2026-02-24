@@ -2,7 +2,7 @@
 from copy import deepcopy
 import numpy as np
 
-def solve_linear(data: list[float]) -> list[float]:
+def solve_linear(data: list[list[float]]) -> list[float]:
     """solves linear equations with the Gauss Elimination method"""
     nrows = len(data)
     ncols = len(data[0])

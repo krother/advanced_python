@@ -6,14 +6,14 @@ log = logging.getLogger('example logger')
 log.setLevel(logging.INFO)
 
 fmt='%(asctime)s | %(message)s'
-format = logging.Formatter(fmt, datefmt='%m/%d/%Y %I:%M:%S %p')
+formatter = logging.Formatter(fmt, datefmt='%m/%d/%Y %I:%M:%S %p')
 
 handler = logging.StreamHandler(sys.stderr)
-handler.setFormatter(format)
+handler.setFormatter(formatter)
 log.addHandler(handler)
 
 handler2 = logging.FileHandler('logfile.log', mode='w')
-handler2.setFormatter(format)
+handler2.setFormatter(formatter)
 log.addHandler(handler2)
 
 log.info('message from logger ')

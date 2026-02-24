@@ -108,4 +108,4 @@ You can see all directories from within Python by checking the ``sys.path`` vari
 .. code:: python3
 
    import sys
-   print sys.path
+   print(sys.path)

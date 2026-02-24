@@ -21,7 +21,7 @@ When you are working on your first real-world Python project, the codebase is ty
 
 **Refactoring is improving the structure of code without changing its functionality.**
 
-In practice, this means thing like:
+In practice, this means things like:
 
 * remove redundant code segments
 * split long functions into shorter ones

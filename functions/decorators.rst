@@ -11,7 +11,7 @@ Using built-in decorators
 -------------------------
 
 Most of the time, you will use built-in decorators. One example is
-``functools.lru_cache`` that memorizes the output of a function to save
+``functools.lru_cache`` that memoizes the output of a function to save
 time later. Let's decorate a function with it:
 
 .. code:: python3
@@ -42,7 +42,7 @@ Writing your own decorators
 ---------------------------
 
 If want to add functionality for which no decorator exists,
-e.g. printing a timestamp for every addition, you could define a new function:
+e.g. printing a timestamp for every call of ``fibonacci()``, you could define a new function:
 
 .. code:: python3
 
@@ -59,11 +59,11 @@ using a decorator:
 
    def print_timestamp(func):
        def wrapper(*args):
-           print(time.asctime())  # done before addition
-           result = func(*args)   # calls the addition function
-           ...                    # actions after addition
+           print(time.asctime())  # done before function call
+           result = func(*args)   # calls the function
+           ...                    # actions after function call
            return result
-   return wrapper
+       return wrapper
 
 
    @print_timestamp
@@ -74,7 +74,7 @@ using a decorator:
        return fibonacci(n-1) + fibonacci(n-2)
 
 You can argue that this does not simplify the code.
-Decorators pays off in bigger programs, when they are used often.
+Decorators pay off in bigger programs, when they are used several times.
 Logging function calls is a good example for using a decorator.
 
 
@@ -94,11 +94,11 @@ original one. It is useful when writing your own decorators.
    def print_timestamp(func):
        @functools.wraps(func)
        def wrapper(*args):
-           print(time.asctime())  # done before addition
-           result = func(*args)   # calls the addition function
-           ...                    # actions after addition
+           print(time.asctime())
+           result = func(*args)
+           ...
            return result
-   return wrapper
+       return wrapper
 
    @print_timestamp
    def fibonacci(n):
@@ -109,4 +109,4 @@ original one. It is useful when writing your own decorators.
 
 
    # check docstring - would not work without @wraps
-   print(help(addition))
+   print(help(fibonacci))

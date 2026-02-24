@@ -46,7 +46,7 @@ def generate_floor_positions(xsize: int, ysize:int) -> set[tuple[int, int]]:
     """
     positions = get_all_floor_positions(xsize, ysize)
     floors = set()
-    while positions != []:
+    while positions:
         x, y = random.choice(positions)
         neighbors = get_neighbors(x, y)
         free = [for nb in neighbors if nb in floors]

@@ -1,7 +1,7 @@
 
 # Class Diagrams
 
-One of the first and most important things converting ideas and into code is to structure data.
+One of the first and most important things converting ideas into code is to structure data.
 You want to start structuring your core business data.
 In the case of a snake game, this means how the playing field, the snake and the food items are represented.
 
@@ -53,8 +53,8 @@ The Python `dataclasses` module saves you a lot of typing:
     @dataclass
     class PlayingField:
 
-        size: (int, int)
-        food: (int, int) = None
+        size: tuple[int, int]
+        food: tuple[int, int] | None = None
 
         def add_food(self, x, y):
             ...
@@ -78,7 +78,7 @@ The code is already executable:
     print(pf.size)
     print(pf.get_walls())
 
-Although our class does nothing yet, it helps to think about your desing and write other code that depends on it.
+Although our class does nothing yet, it helps to think about your design and write other code that depends on it.
 
 ----
 
@@ -94,7 +94,7 @@ There are a few differences:
 * size and food have separate x and y attributes instead of being tuples
 * the walls are represented by a list of `(int, int)` tuples
 * the `add_food()` method expects a tuple instead of two integers
-* there methods `is_wall()` and `get_walls()` are no longer there
+* the methods `is_wall()` and `get_walls()` are no longer there
 
 One could discuss a lot which design is better.
 You are better off postponing that discussion to a cleanup stage once the code is running.
@@ -121,7 +121,7 @@ Now you can use all three attributes without storing redundant data:
 
 
 More complex and difficult questions arise when planning relationships between multiple classes.
-There will be multiple working alternatives, but some may fall on your feet in the long run.
+There will be multiple working alternatives, each with their own tradeoffs.
 You may want to read more about **SOLID principles**, **Object Composition** and **Design Patterns**.
 
 ## Classes vs SQL
