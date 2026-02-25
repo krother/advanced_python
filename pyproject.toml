@@ -1,0 +1,14 @@
+[project]
+name = "advanced-python"
+version = "0.1.0"
+description = "Materials for advanced Python courses"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "sphinx",
+    "sphinx-design",
+    "sphinx-copybutton",
+    "myst-parser",
+    "sphinxcontrib-svg2pdfconverter[CairoSVG]",
+    "furo",
+]

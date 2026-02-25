@@ -1,6 +1,0 @@
-sphinx
-sphinx-design
-sphinx-copybutton
-myst-parser
-sphinxcontrib-svg2pdfconverter[CairoSVG]
-furo
