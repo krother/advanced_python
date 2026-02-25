@@ -3,7 +3,7 @@ name: deploy advanced python
 
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
 
 jobs:
 
@@ -18,8 +18,9 @@ jobs:
     - name: build static html
       run: |
         python -m pip install --upgrade pip
-        pip install -r requirements.txt
-        make html
+        pip install uv
+        uv sync
+        uv run make html
 
     - name: copy to academis server 
       uses: appleboy/scp-action@master
