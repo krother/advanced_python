@@ -15,7 +15,7 @@ Inspect the output and look for bottlenecks.
 
 Then insert the line:
 
-.. code:: python3
+.. code:: python
 
     z[index] = z[index] \*\* 2 + c[index]
 
@@ -25,7 +25,7 @@ Re-run the profiling.
 
    cProfile also works inside a program:
 
-   .. code:: python3
+   .. code:: python
 
        import cProfile
        cProfile.run("[x for x in range(1500)]")
@@ -35,13 +35,13 @@ Timing in Jupyter / IPython
 
 IPython (including Jupyter notebooks) has two magic commands for measuring execution time.
 
-.. code:: ipython3
+.. code:: python
 
     %time len(range(100000))
 
 compare the output to
 
-.. code:: ipython3
+.. code:: python
 
     %timeit
 

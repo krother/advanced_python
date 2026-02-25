@@ -8,7 +8,7 @@ A search problem
 
 Suppose you have a list of 1 million numbers:
 
-.. code:: python3
+.. code:: python
 
    from random import randint, seed
 
@@ -25,7 +25,7 @@ Brute-force solution
 
 Of course, you could loop through all the numbers:
 
-.. code:: python3
+.. code:: python
 
    def search(query, ids):
        """brute-force search"""
@@ -47,7 +47,7 @@ Recursive solution
 An alternative approach is **binary search**, one of the most
 fundamental recursive algorithms:
 
-.. code:: python3
+.. code:: python
 
    def binary_search(query, ids, start, stop):
        """recursive binary search"""
@@ -84,9 +84,9 @@ Challenge
 Measure the time it takes both algorithms to run on 1 million numbers.
 In IPython/Jupyter, you can use the magic function ``%time``:
 
-.. code:: ipython3
+.. code:: python
 
-   In [2]: %time search(8997173, ids)
+   %time search(8997173, ids)
 
 Compare the time required by the brute-force and binary implementations.
 Then increase the size of the data by factor 10 and repeat the
