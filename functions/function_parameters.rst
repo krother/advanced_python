@@ -1,6 +1,8 @@
 Function parameters
 ===================
 
+.. figure:: functions.svg
+
 There are four types of function parameters in Python:
 
 -  obligatory parameters
