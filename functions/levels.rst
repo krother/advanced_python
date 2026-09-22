@@ -1,6 +1,8 @@
 Writing a new Function
 ======================
 
+.. figure:: functions.png
+
 In this exercise, you will rehearse writing a new Python function.
 
 Requirement: Edit Levels
